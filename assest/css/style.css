@@ -3,12 +3,20 @@
 *{
     padding: 0;
     margin: 0;
+    border: none;
 }
 
-.home h1{
+.home a{
+    /*Issue # 1 fix */
+    text-decoration: none;
+}
+
+a > h1{
     font-family: 'Dancing Script', sans-serif;
     display: inline;
-    font-size: 280%;    
+    font-size: 280%;
+    /* Change logo href color from blue to black */
+    color: black;    
 }
 
 .home{
