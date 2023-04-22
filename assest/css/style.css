@@ -41,3 +41,13 @@ li a{
     font-size: 200%;
     font-family: 'Dancing Script', sans-serif;
 }
+
+/* Main Image */
+#main-sec{
+    position: relative;
+}
+#main-image{
+    height: 600px;
+    background: #EADDFF url('../images/background.webp') center center no-repeat;
+    background-size: cover;
+}
