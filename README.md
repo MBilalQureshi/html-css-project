@@ -8,3 +8,5 @@ There is also a sign up page for users to get signed up.
 ## Fixes
 1. Hot bowl Cuisine logo link is not working and there is still a line under it.
     Fix: Add text-decoration: none; on .home a and changed its color to black.
+2. Header background pink color gets overflowed from right on small screens.
+    Fix: width set to auto instead of 100%

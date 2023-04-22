@@ -7,7 +7,7 @@
 }
 
 .home a{
-    /*Issue # 1 fix */
+    /*Issue # 1 The href decoration was still on Hot Bowl Cusine logo so it's set to none */
     text-decoration: none;
 }
 
@@ -20,7 +20,8 @@ a > h1{
 }
 
 .home{
-    width: 100%;
+    /* Issue # 2 The pink header strip was overflowing from right so width is set to auto instead of 100% */
+    width: auto;
     height: 70px;
     padding: 10px 0 0 10px;
     background-color: #FFD8E4;
