@@ -69,3 +69,19 @@ li a{
     text-align: center;
     border: 10px solid #633B48;
 }
+
+/* search bar */
+#search-bar{
+    background-color: #EADDFF;
+    height: 70px;
+}
+#search-bar-inner {
+    line-height: 75px;
+    text-align: center;
+}
+#search-bar-inner > label, #search{
+    font-family: 'Dancing Script', sans-serif;
+    font-size: xx-large;
+    color: #1C1B1F;
+    font-weight: 900;
+}
