@@ -51,6 +51,8 @@ li a{
     height: 600px;
     background: #EADDFF url('../images/background.webp') center center no-repeat;
     background-size: cover;
+    /* Issue 3 add overflow hidden so that screen does not leave alot of white space on right (small screens)*/
+    overflow: hidden;
 }
 #main-image-label{
     font-family: 'Dancing Script', sans-serif;
@@ -91,5 +93,7 @@ li a{
     background: #633B48 url('../images/background-2.webp') no-repeat center center;
     background-attachment: fixed;
     text-align: center;
-    background-size: cover;
+    background-size: cover; 
+    /* Issue 4 add overflow hidden so that screen does not leave alot of white space on right (small screens)*/
+    overflow: hidden;
 }
