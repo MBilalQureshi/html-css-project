@@ -97,3 +97,20 @@ li a{
     /* Issue 4 add overflow hidden so that screen does not leave alot of white space on right (small screens)*/
     overflow: hidden;
 }
+/* About us */
+#about-us > h1{
+    font-family: 'Dancing Script', sans-serif;
+    text-align: center;
+    background-color:#4A4458;
+    color: #ffffff;
+    font-size: xxx-large;
+    line-height: 70px;
+}
+#about-us p {
+    font-family: 'PT sans', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    background-color: #E8DEF8;
+    line-height: 25px;  
+}
