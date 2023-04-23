@@ -85,3 +85,11 @@ li a{
     color: #1C1B1F;
     font-weight: 900;
 }
+
+/* background image for demo cooking video */
+#food-vid{
+    background: #633B48 url('../images/background-2.webp') no-repeat center center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+}
