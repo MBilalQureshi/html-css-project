@@ -190,3 +190,16 @@ table{
     color: #EADDFF;   
     font-size: x-large; 
 }
+@media screen and (max-width:950px){
+    /* header */
+     .home{
+         height: 112px;
+     }
+     .nav{
+         clear: left;
+         float:left;
+     }
+     li a{
+         font-size: 25px;
+     }
+}
