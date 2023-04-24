@@ -204,4 +204,11 @@ table{
      li a{
          font-size: 25px;
      }
+     /* Main Image cover */
+    #main-image-label{
+        margin-left: 25px;
+        top: 25px;
+        width: 60%;
+        height: fit-content;
+    }
 }

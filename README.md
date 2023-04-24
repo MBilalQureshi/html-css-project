@@ -12,5 +12,5 @@ There is also a sign up page for users to get signed up.
     Fix: width set to auto instead of 100%
 3. Issue 3a and 3b are same, Alot of white space is left on small screens on background image areas
     Fix: Add overflow:hidden in bcakground image styling
-4. Hot Bowl cuisine logo moves to right on small screen sizes
+4. Hot Bowl cuisine logo moves to right on middle size screen sizes
     fix: Use float: left to fix the logo on left
