@@ -13,6 +13,8 @@
 }
 
 a > h1{
+    /* Fix 4 Add float left so that on different screen sizes logo(Hot Bowl Cuisine) doesn't move to right */
+    float :left;
     font-family: 'Dancing Script', sans-serif;
     display: inline;
     font-size: 280%;
@@ -52,7 +54,7 @@ li a{
     height: 600px;
     background: #EADDFF url('../images/background.webp') center center no-repeat;
     background-size: cover;
-    /* Issue 3 add overflow hidden so that screen does not leave alot of white space on right (small screens)*/
+    /* Issue 3a add overflow hidden so that screen does not leave alot of white space on right (small screens)*/
     overflow: hidden;
 }
 #main-image-label{
@@ -95,7 +97,7 @@ li a{
     background-attachment: fixed;
     text-align: center;
     background-size: cover; 
-    /* Issue 4 add overflow hidden so that screen does not leave alot of white space on right (small screens)*/
+    /* Issue 3b add overflow hidden so that screen does not leave alot of white space on right (small screens)*/
     overflow: hidden;
 }
 /* About us */
@@ -191,7 +193,7 @@ table{
     font-size: x-large; 
 }
 @media screen and (max-width:950px){
-    /* header */
+    /* Nav */
      .home{
          height: 112px;
      }
