@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=PT+Sans:wght@700&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=PT+Sans:wght@300&family=Quicksand&display=swap');
 
 *{
     padding: 0;
@@ -113,4 +113,64 @@ li a{
     text-align: justify;
     background-color: #E8DEF8;
     line-height: 25px;  
+}
+/* Visit our kitchen */
+#visit-us{
+    float: left;
+    width: 33%;
+    background-color: #EADDFF;
+    height: 180px;
+    border-right: 2px solid black;
+}
+#visit-us > h1{
+    font-family: 'pt sans', sans-serif;
+    text-align: center;
+    background-color: #1D192B;
+    color: #ffff;
+}
+table,th,td{
+    border: 2px solid #633B48;
+    width: 50%;
+}
+table{
+    margin: 25px 0 0 100px;
+}
+/* Phone Email */
+#contact{
+    float: right;
+    width: 33%;
+    background-color: #EADDFF;
+    height: 180px;
+    border-left: 2px solid black;
+}
+#contact > h1{
+    font-family: 'pt sans', sans-serif;
+    text-align: center;
+    background-color: #1D192B;
+    color: #ffff;
+}
+.contact-inner{ 
+    font-weight: bold;
+}
+#contact-outer{
+    margin-top: 50px;
+    text-align: center;
+}
+/* Address */
+#address{
+    background-color: #EADDFF;
+    overflow: hidden; 
+}
+  #address > h1{
+    font-family: 'pt sans', sans-serif;
+    text-align: center;
+    background-color: #1D192B;
+    color: #ffff;
+    
+} 
+#address p{
+    height: 105px;
+    background-color: #EADDFF;
+    text-align: center;
+    margin-top: 48px;
 }
