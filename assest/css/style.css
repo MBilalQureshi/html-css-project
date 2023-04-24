@@ -6,6 +6,7 @@
     border: none;
 }
 
+/* header */
 .home a{
     /*Issue # 1 The href decoration was still on Hot Bowl Cusine logo so it's set to none */
     text-decoration: none;
@@ -173,4 +174,19 @@ table{
     background-color: #EADDFF;
     text-align: center;
     margin-top: 48px;
+}
+/* Footer */
+.social{
+    background-color: #1D192B;
+    list-style: none;
+    text-align: center;
+    
+}
+.social li{
+    display: inline-block;
+    margin:3%;
+}
+.social a{
+    color: #EADDFF;   
+    font-size: x-large; 
 }
