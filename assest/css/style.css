@@ -211,4 +211,17 @@ table{
         width: 60%;
         height: fit-content;
     }
+    /* Search Bar */
+    #search-bar{
+        height: 125px;
+    }
+    #search-bar-inner > label{
+        float: left;
+        margin-left:15px ;
+    }
+    #search{
+        margin-left:15px ;
+        clear: left;
+        float: left;
+    }
 }
