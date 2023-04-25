@@ -229,4 +229,22 @@ table{
         width:fit-content;
         height: fit-content;
     }
+    /* Contact */
+    #contact{
+        clear: left;
+        border: none;
+        width: 100%;
+    }
+    table{
+        margin-left: 25%;
+    }
+    #visit-us{
+        clear: right;
+        width: 100%;
+        border: none;
+    }
+    /* Address */
+    #address{
+        clear: both;
+    }
 }
