@@ -214,20 +214,15 @@ table{
 .recipe img{
     height: 350px;
     width: 50%;
-    /* float:left; */
 }
 .details{
-    /* padding: 20px  20px 0 10px; */
     text-align: justify;
     margin: 15px 20px 0 0;
     float: right;
-    /* clear: right; */
     width:47%;
     font-family: 'quicksand', sans-serif;
     font-size: medium;
-    
-    /* margin-right: 50px; */
-}
+ }
 #top3{
 background-color: #EADDFF;
 }
