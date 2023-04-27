@@ -408,4 +408,9 @@ fieldset,textarea{
     #review{
         width: 90%;
     }
+    #sign-up-form{
+        width: 65%;
+        height: fit-content;
+        left: 5%;
+    }
 }
