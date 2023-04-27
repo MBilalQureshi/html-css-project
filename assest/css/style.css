@@ -322,7 +322,9 @@ fieldset,textarea{
     font-family: 'quicksand', sans-serif;
     font-size: x-large;
     border: 2px solid saddlebrown;
-
+}
+#email{
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width:950px){
