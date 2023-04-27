@@ -381,4 +381,21 @@ fieldset,textarea{
     #address{
         clear: both;
     }
+    /* Top 3 rescipies */
+    #top3 > h1{    
+        font-size: xx-large;
+    }
+
+    .recipe > h1{
+        font-size: x-large;
+    }
+    .recipe img{
+        height: 350px;
+        width: 100%;
+    }
+
+    /* Fixing review text area to prevent lot of white area from right */
+    #review{
+        width: 300px;
+    }
 }
