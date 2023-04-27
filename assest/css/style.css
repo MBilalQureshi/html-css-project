@@ -281,7 +281,6 @@ fieldset,textarea{
     font-family: 'quicksand', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 5px;
 }
 #submit-review:hover, #sign-up-submit:hover{
     background-color: #1C1B1F;
@@ -404,7 +403,6 @@ fieldset,textarea{
      .user-comment{
         width:inherit;
      }
-    /* Fixing review text area to prevent lot of white area from right */
     #review{
         width: 90%;
     }
