@@ -275,17 +275,55 @@ fieldset,textarea{
     border: solid;
 }
 
-/* review submit */
-#submit-review{
+/* review and sign up submit */
+#submit-review,#sign-up-submit{
     padding: 20px 20px 20px 20px;
     font-family: 'quicksand', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 10px;
 }
-#submit-review:hover{
+#submit-review:hover, #sign-up-submit:hover{
     background-color: #1C1B1F;
     color: #FFD8E4;
+}
+
+/* Sign up */
+/* Background */
+#sign-up-sec{
+    position: relative;
+}
+#sign-up-background{
+    background: url('../images/Sign-up-background.webp') center center no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+#sign-up-form{
+    position: absolute;
+    top: 15%;
+    background-color: rgba(26, 14, 14, 0.6) ;
+    color: #ffffff;
+    width: 350px;
+    height: fit-content;
+    padding: 30px;
+    border: 10px solid #633B48;
+    left: 35%;
+    font-family: 'quicksand', sans-serif;
+    font-size: xx-large;
+}
+#sign-up-form > h1 {
+    font-family: 'Dancing Script', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: xxx-large;
+    line-height: 70px;
+}
+#fname, #lname, #email{
+    width: 100%;
+    font-family: 'quicksand', sans-serif;
+    font-size: x-large;
+    border: 2px solid saddlebrown;
+
 }
 
 @media screen and (max-width:950px){
