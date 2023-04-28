@@ -125,7 +125,7 @@ li a{
     height: 180px;
     border-right: 2px solid black;
 }
-#visit-us > h1{
+#visit-us > h2,#contact > h2,#address > h2{
     font-family: 'pt sans', sans-serif;
     text-align: center;
     background-color: #1D192B;
@@ -146,12 +146,6 @@ table{
     height: 180px;
     border-left: 2px solid black;
 }
-#contact > h1{
-    font-family: 'pt sans', sans-serif;
-    text-align: center;
-    background-color: #1D192B;
-    color: #ffff;
-}
 .contact-inner{ 
     font-weight: bold;
 }
@@ -164,13 +158,6 @@ table{
     background-color: #EADDFF;
     overflow: hidden;
 }
-  #address > h1{
-    font-family: 'pt sans', sans-serif;
-    text-align: center;
-    background-color: #1D192B;
-    color: #ffff;
-    
-} 
 #address p{
     height: 105px;
     background-color: #EADDFF;
@@ -195,7 +182,7 @@ table{
 
 /* Our food */
 /* Top 3 rescipies */
-#top3 > h1{
+#top3 > h2{
     font-family: 'Dancing Script', sans-serif;
     text-align: center;
     background-color:#4A4458;
@@ -204,7 +191,7 @@ table{
     line-height: 70px;
 }
 
-.recipe > h1{
+.recipe > h3{
     padding: 10px 0 10px 15px;
     text-align: left;
     background-color: #bbffdf;
@@ -228,7 +215,7 @@ background-color: #EADDFF;
 }
 
 /* User Reviews */
-#main-panel h1,#review-head{
+#main-panel h2,#review-head{
     font-family: 'Dancing Script', sans-serif;
     text-align: center;
     background-color:#4A4458;
@@ -245,12 +232,12 @@ background-color: #EADDFF;
     background-color: #EADDFF;
 
 }
-.user-comment > header{
+.user-comment > h3{
     font-family: 'quicksand', sans-serif;
     font-weight: bold;
 }
 
-.user-comment > section{
+.user-comment > div{
     font-family: 'quicksand', sans-serif;
     margin-left: 30px;
 }
@@ -310,7 +297,7 @@ fieldset,textarea{
     font-family: 'quicksand', sans-serif;
     font-size: xx-large;
 }
-#sign-up-form > h1 {
+#sign-up-form > h2 {
     font-family: 'Dancing Script', sans-serif;
     text-align: center;
     color: #ffffff;
@@ -383,11 +370,11 @@ fieldset,textarea{
         clear: both;
     }
     /* Top 3 rescipies */
-    #top3 > h1{    
+    #top3 > h2{    
         font-size: xx-large;
     }
 
-    .recipe > h1{
+    .recipe > h3{
         font-size: x-large;
     }
     .recipe img{
@@ -399,7 +386,7 @@ fieldset,textarea{
         width:90%;
         margin: 5% 5% 0% 5%;
      }
-     #main-panel h1,#review-head{
+     #main-panel h2,#review-head{
         font-size: xx-large;
      }
      .user-comment{
