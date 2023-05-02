@@ -386,7 +386,7 @@ fieldset,textarea{
         left: 5%;
     }
 }
-/* Fix: Fix nav bar issue as per tablet screens */
+ /* Fix 5:Fix nav bar moving below logo issue for tablet screen */
 @media screen and (max-width:750px){
     /* Nav */
     .home{
@@ -406,4 +406,10 @@ fieldset,textarea{
        width: 60%;
        height: fit-content;
    }
+}
+/* Fix 6: Fix search bar overflows to blank space issue on much smaller mobile screens */
+@media screen and (max-width:450px){
+    #search{
+        width: 70%;
+    }
 }

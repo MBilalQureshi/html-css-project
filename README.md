@@ -15,4 +15,6 @@ There is also a sign up page for users to get signed up.
 4. Hot Bowl cuisine logo moves to right on middle size screen sizes
     fix: Use float: left to fix the logo on left
 5. On Tablets nav option moves below the logo
-    Fix:Set max width to 750px in media query and move the nav styling from first media query to there.    
+    Fix:Set max width to 750px in media query and move the nav styling from first media query to there.
+6. On mobile screens smaller than 450px search bar overflows its self to right side.
+    Fix:Set width of search bar to 70% and add media query of max width of 450px
