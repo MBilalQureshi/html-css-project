@@ -20,3 +20,5 @@ There is also a sign up page for users to get signed up.
     Fix:Set width of search bar to 70% and add media query of max width of 450px
 7. On tablets search bar moves below its label
     fix: Move code from first media query to the second one.
+8. On tablets video on home page has false width height as per tablet screens
+    fix:Move code from first media query to the second one.

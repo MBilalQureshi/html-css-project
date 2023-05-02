@@ -318,11 +318,6 @@ fieldset,textarea{
 }
 
 @media screen and (max-width:950px){
-    /* Food video-Iframe */
-    iframe{
-        width:fit-content;
-        height: fit-content;
-    }
     /* Contact */
     #contact{
         clear: left;
@@ -393,6 +388,12 @@ fieldset,textarea{
        width: 60%;
        height: fit-content;
    }
+   /* Fix 8 : Fix of incorrect width and height of video on home page for tablet screens */
+    /* Food video-Iframe */
+    iframe{
+        width:fit-content;
+        height: fit-content;
+    }
    /* Fix 7:Fix search bar moving below its label on tablets screens */
    /* Search Bar */
    #search-bar{
