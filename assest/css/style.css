@@ -318,19 +318,6 @@ fieldset,textarea{
 }
 
 @media screen and (max-width:950px){
-    /* Search Bar */
-    #search-bar{
-        height: 125px;
-    }
-    #search-bar-inner > label{
-        float: left;
-        margin-left:15px ;
-    }
-    #search{
-        margin-left:15px ;
-        clear: left;
-        float: left;
-    }
     /* Food video-Iframe */
     iframe{
         width:fit-content;
@@ -406,6 +393,20 @@ fieldset,textarea{
        width: 60%;
        height: fit-content;
    }
+   /* Fix 7:Fix search bar moving below its label on tablets screens */
+   /* Search Bar */
+   #search-bar{
+    height: 125px;
+    }
+    #search-bar-inner > label{
+        float: left;
+        margin-left:15px ;
+    }
+    #search{
+        margin-left:15px ;
+        clear: left;
+        float: left;
+    }
 }
 /* Fix 6: Fix search bar overflows to blank space issue on much smaller mobile screens */
 @media screen and (max-width:450px){

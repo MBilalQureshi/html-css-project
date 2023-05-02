@@ -18,3 +18,5 @@ There is also a sign up page for users to get signed up.
     Fix:Set max width to 750px in media query and move the nav styling from first media query to there.
 6. On mobile screens smaller than 450px search bar overflows its self to right side.
     Fix:Set width of search bar to 70% and add media query of max width of 450px
+7. On tablets search bar moves below its label
+    fix: Move code from first media query to the second one.
