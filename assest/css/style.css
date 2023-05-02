@@ -318,24 +318,6 @@ fieldset,textarea{
 }
 
 @media screen and (max-width:950px){
-    /* Nav */
-     .home{
-         height: 112px;
-     }
-     .nav{
-         clear: left;
-         float:left;
-     }
-     li a{
-         font-size: 25px;
-     }
-     /* Main Image cover */
-    #main-image-label{
-        margin-left: 25px;
-        top: 25px;
-        width: 60%;
-        height: fit-content;
-    }
     /* Search Bar */
     #search-bar{
         height: 125px;
@@ -403,4 +385,25 @@ fieldset,textarea{
         height: fit-content;
         left: 5%;
     }
+}
+/* Fix: Fix nav bar issue as per tablet screens */
+@media screen and (max-width:750px){
+    /* Nav */
+    .home{
+        height: 112px;
+    }
+    .nav{
+        clear: left;
+        float:left;
+    }
+    li a{
+        font-size: 25px;
+    }
+    /* Main Image cover */
+   #main-image-label{
+       margin-left: 25px;
+       top: 25px;
+       width: 60%;
+       height: fit-content;
+   }
 }
