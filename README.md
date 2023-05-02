@@ -30,3 +30,5 @@ There is also a sign up page for users to get signed up.
     Fix:Using Tutuor support fixed the issue using col-count and set it to 2.
 11. Fixing the issue of changing ordered list values to bold 
 Fix:Used stack overflow to see how to change ordered list marker to bold.
+12. At some point the issue number 10 works but still ingredients content is overflowing to the next availaible contetnt
+    Fix: At the next available content use clear right to avoid this issue. 

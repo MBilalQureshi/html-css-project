@@ -195,6 +195,8 @@ table{
 }
 
 .recipe > h3{
+    /*Fix12: On few tablet screen, even after fixing point number 10, the ingredients were still overflowing over the next content, clearing the right side of heading fixed it */
+    clear: right;
     padding: 10px 0 10px 15px;
     text-align: left;
     background-color: #bbffdf;
