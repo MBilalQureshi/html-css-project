@@ -26,3 +26,7 @@ There is also a sign up page for users to get signed up.
     fix:Add margin on top
 9.1. The issue number 9 still persist on small screens
     fix: Fix the width for small screen using media query fix the issue.
+10. The ingredients list was overflowing over the next available content, Used multiple methods to fix it using, inline, inline block, float right changing div to span, nothing worked
+    Fix:Using Tutuor support fixed the issue using col-count and set it to 2.
+11. Fixing the issue of changing ordered list values to bold 
+Fix:Used stack overflow to see how to change ordered list marker to bold.

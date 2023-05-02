@@ -206,13 +206,25 @@ table{
     width: 50%;
 }
 .details{
-    text-align: justify;
+    /* text-align: justify; */
     margin: 15px 20px 0 0;
     float: right;
     width:47%;
     font-family: 'quicksand', sans-serif;
     font-size: medium;
  }
+ .col-seprate li{
+    margin: 0 10px 0 10px;
+ }
+ /* fix:11 https://stackoverflow.com/questions/21369843/is-there-a-way-to-make-numbers-in-an-ordered-list-bold */
+ .col-seprate li::marker {
+    font-weight: bold;
+  }
+  /* Fix:10: Asked from Code Institute tutor support */
+ .col-seprate{
+    column-count: 2;
+    column-gap:35px;
+}
 #top3{
 background-color: #EADDFF;
 }
