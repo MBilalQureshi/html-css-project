@@ -84,13 +84,16 @@ li a{
     line-height: 75px;
     text-align: center;
 }
-#search-bar-inner > label, #search{
+#search-bar-inner > label{
     font-family: 'Dancing Script', sans-serif;
     font-size: xx-large;
     color: #1C1B1F;
     font-weight: 900;
 }
-
+#search{
+    font-size: xx-large;
+    font-family:'PT sans', sans-serif;
+}
 /* background image for demo cooking video */
 #food-vid{
     background: #633B48 url('../images/background-2.webp') no-repeat center center;
