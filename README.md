@@ -22,3 +22,5 @@ There is also a sign up page for users to get signed up.
     fix: Move code from first media query to the second one.
 8. On tablets video on home page has false width height as per tablet screens
     fix:Move code from first media query to the second one.
+9. The tabel overflows from bottom to to next content on small screens
+    fix:Add margin on top

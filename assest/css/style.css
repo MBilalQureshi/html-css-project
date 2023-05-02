@@ -325,6 +325,8 @@ fieldset,textarea{
         width: 100%;
     }
     table{
+        /* Fix 9: The tabel overflows from bottom to to next content on small screens, required margin from top */
+        margin-top: 15px;
         margin-left: 25%;
     }
     #visit-us{
