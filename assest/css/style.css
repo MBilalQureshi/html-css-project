@@ -339,7 +339,7 @@ fieldset,textarea{
         clear: both;
     }
     /* Top 3 rescipies */
-    #top3 > h2{    
+    #top3 > h2{
         font-size: xx-large;
     }
 
@@ -415,5 +415,8 @@ fieldset,textarea{
 @media screen and (max-width:450px){
     #search{
         width: 70%;
+    }
+    table{
+        width: fit-content;
     }
 }

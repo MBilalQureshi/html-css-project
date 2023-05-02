@@ -24,3 +24,5 @@ There is also a sign up page for users to get signed up.
     fix:Move code from first media query to the second one.
 9. The tabel overflows from bottom to to next content on small screens
     fix:Add margin on top
+9.1. The issue number 9 still persist on small screens
+    fix: Fix the width for small screen using media query fix the issue.
