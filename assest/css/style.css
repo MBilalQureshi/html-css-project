@@ -232,6 +232,10 @@ background-color: #EADDFF;
 }
 
 /* User Reviews */
+/* Fix13:This code fixs the overflow of last ingerdient list to below available content*/
+#main-panel{
+    clear:right;
+}
 #main-panel h2,#review-head{
     font-family: 'Dancing Script', sans-serif;
     text-align: center;

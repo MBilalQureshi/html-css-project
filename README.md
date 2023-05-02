@@ -31,4 +31,6 @@ There is also a sign up page for users to get signed up.
 11. Fixing the issue of changing ordered list values to bold 
 Fix:Used stack overflow to see how to change ordered list marker to bold.
 12. At some point the issue number 10 works but still ingredients content is overflowing to the next availaible contetnt
-    Fix: At the next available content use clear right to avoid this issue. 
+    Fix: At the next available content use clear right to avoid this issue.
+13. The last ingredient list also overflows to below available content
+    Fix: Use clear right on below avaialble content (#main-panel) to fix this.
