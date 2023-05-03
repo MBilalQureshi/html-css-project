@@ -46,3 +46,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Change percentage to px for margin in footer 
 19. Change the font size of search bar at home page
     Fix: Change the font size from xx-large to x-large
+20. Remove top 3 background color as it might be too much color for some users
+    Fix: Just remove the code for the background color

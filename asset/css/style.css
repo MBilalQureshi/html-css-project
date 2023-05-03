@@ -236,9 +236,10 @@ table{
     column-count: 2;
     column-gap:35px;
 }
-#top3{
-background-color: #EADDFF;
-}
+/* Fix as per discussion with mentor (change # 7, fix # 20): Removed the background color of top 3 recipies as this may be too much for some users */
+/* #top3{
+background-color: #ffffff;
+} */
 
 /* User Reviews */
 /* Fix13:This code fixs the overflow of last ingerdient list to below available content*/
