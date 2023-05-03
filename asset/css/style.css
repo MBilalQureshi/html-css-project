@@ -91,7 +91,8 @@ li a{
     font-weight: 900;
 }
 #search{
-    font-size: xx-large;
+    /* Fix as per discussion with mentor (change # 6, fix # 19): Reduce the font size of search bar*/
+    font-size: x-large;
     font-family:'PT sans', sans-serif;
 }
 /* background image for demo cooking video */

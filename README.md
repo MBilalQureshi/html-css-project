@@ -44,3 +44,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Change margin to auto and after that give margin top of 14px
 18. In footer for margin percentage was used which is not a good practice
     Fix: Change percentage to px for margin in footer 
+19. Change the font size of search bar at home page
+    Fix: Change the font size from xx-large to x-large
