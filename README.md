@@ -40,3 +40,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     fix: Remove previous padding and change it to 24px
 16. Visit our kitchen time table at home page visibilty is not correct.
     Fix: Change background color to white
+17. Visit our kitchen time table at home page margin which was already taken care off at fix number 9 still had margin issues
+    Fix: Change margin to auto and after that give margin top of 14px
