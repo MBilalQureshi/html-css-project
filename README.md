@@ -48,3 +48,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Change the font size from xx-large to x-large
 20. Remove top 3 background color as it might be too much color for some users
     Fix: Just remove the code for the background color
+21. Stretched images in our food page in some dimensions
+    Fix: Remove height from the images in our food page

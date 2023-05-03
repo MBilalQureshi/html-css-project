@@ -213,7 +213,7 @@ table{
     font-size: xx-large;
 }
 .recipe img{
-    height: 350px;
+    /* Fix as per discussion with mentor (change # 8, fix # 21): Object fit cover has no impact, just removing height fixed the issue */
     width: 50%;
 }
 .details{
@@ -375,7 +375,7 @@ fieldset,textarea{
         font-size: x-large;
     }
     .recipe img{
-        height: 350px;
+        /* Fix as per discussion with mentor (change # 8, fix # 21): Object fit cover has no impact, just removing height fixed the issue */
         width: 100%;
     }
     .details{
