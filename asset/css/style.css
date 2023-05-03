@@ -96,7 +96,7 @@ li a{
 }
 /* background image for demo cooking video */
 #food-vid{
-    /* Fix as per discussion with mentor (issue number 1 fix number 14): As shown in below link changes the background color to white and use blend mode to luminosity which changes background color to greyscale */
+    /* Fix as per discussion with mentor (change # 1, fix # 14): As shown in below link, change the background color to white and use blend mode to luminosity which changes background color to greyscale */
     /* https://stackoverflow.com/questions/16340159/greyscale-background-css-images/53068329#53068329 */
     background: #fff url('../images/background-2.webp') no-repeat center center;
     background-attachment: fixed;
@@ -117,7 +117,7 @@ li a{
 }
 #about-us p {
     font-family: 'PT sans', sans-serif;
-    /* Fix as per discussion with mentor (issue number 2 fix number 15): Change padding to 24px */
+    /* Fix as per discussion with mentor (change # 2,fix # 15): Change padding to 24px */
     padding: 24px;
     text-align: justify;
     background-color: #E8DEF8;
@@ -142,6 +142,8 @@ table,th,td{
     width: 50%;
 }
 table{
+    /* Fix as per discussion with mentor (change # 3,fix # 16): Change table background color to white due to visibility issue */
+    background-color: #fff;
     margin: 25px 0 0 100px;
 }
 /* Phone Email */

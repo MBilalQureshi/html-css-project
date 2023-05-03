@@ -36,3 +36,7 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Use clear right on below avaialble content (#main-panel) to fix this.
 14. As per discussion change second background image on home page to greyscale.
     fix: Change background color to white and use background property of background-blend-mode to luminosity.
+15. Padding of about us is invalid
+    fix: Remove previous padding and change it to 24px
+16. Visit our kitchen time table at home page visibilty is not correct.
+    Fix: Change background color to white
