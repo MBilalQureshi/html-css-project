@@ -96,12 +96,15 @@ li a{
 }
 /* background image for demo cooking video */
 #food-vid{
-    background: #633B48 url('../images/background-2.webp') no-repeat center center;
+    /* Fix as per discussion with mentor issue number 1 fix number 14: As shown in below link changes the background color to white and use blend mode to luminosity which changes background color to greyscale */
+    /* https://stackoverflow.com/questions/16340159/greyscale-background-css-images/53068329#53068329 */
+    background: #fff url('../images/background-2.webp') no-repeat center center;
     background-attachment: fixed;
     text-align: center;
     background-size: cover; 
     /* Issue 3b add overflow hidden so that screen does not leave alot of white space on right (small screens)*/
     overflow: hidden;
+    background-blend-mode: luminosity;
 }
 /* About us */
 #about-us > h1{

@@ -34,3 +34,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: At the next available content use clear right to avoid this issue.
 13. The last ingredient list also overflows to below available content
     Fix: Use clear right on below avaialble content (#main-panel) to fix this.
+14. As per discussion change second background image on home page to greyscale.
+    fix: Change background color to white and use background property of background-blend-mode to luminosity.
