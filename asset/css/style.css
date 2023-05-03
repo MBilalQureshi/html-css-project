@@ -183,7 +183,8 @@ table{
 }
 .social li{
     display: inline-block;
-    margin:3%;
+    /* Fix as per discussion with mentor (change # 5,fix # 18): Use px for margin not % in footer*/
+    margin:24px;
 }
 .social a{
     color: #EADDFF;   

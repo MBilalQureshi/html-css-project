@@ -42,3 +42,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Change background color to white
 17. Visit our kitchen time table at home page margin which was already taken care off at fix number 9 still had margin issues
     Fix: Change margin to auto and after that give margin top of 14px
+18. In footer for margin percentage was used which is not a good practice
+    Fix: Change percentage to px for margin in footer 
