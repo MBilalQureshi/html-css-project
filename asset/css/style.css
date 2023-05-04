@@ -238,6 +238,7 @@ table {
 .col-seprate {
     column-count: 2;
     column-gap: 35px;
+    margin-bottom: 16px;
 }
 /* Fix as per discussion with mentor (change # 7, fix # 20): Removed the background color of top 3 recipies as this may be too much for some users */
 /* #top3{
