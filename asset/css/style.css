@@ -245,7 +245,8 @@ background-color: #ffffff;
 /* Fix13:This code fixs the overflow of last ingerdient list to below available content*/
 #main-panel{
     clear:right;
-    background-color: #FFD8E4;
+    /* Fix as per discussion with mentor (change # 13, fix # 26): Remove background color */
+    /* background-color: #FFD8E4; */
 }
 #main-panel h2,#review-head{
     font-family: 'Dancing Script', sans-serif;

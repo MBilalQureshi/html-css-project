@@ -58,3 +58,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Use margin auto to fix the issue
 25. There is no margin on top and bottom of the user comments section
     Fix: Added margin on top and bottom of user comments section
+26. Remove the pink background color from user comments section as there are already other color and this will be too much
+    Fix: Removed the pink background color
