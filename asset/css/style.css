@@ -303,6 +303,8 @@ fieldset{
 }
 fieldset,textarea{
     border: solid;
+    /* Fix as per discussion with mentor (change # 15, fix # 28): move form contetnt to middle */
+    padding: 12px;
 }
 
 /* review and sign up submit */

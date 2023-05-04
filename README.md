@@ -62,3 +62,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Removed the pink background color
 27. Give us a review form was on right, as per user point of view it should be in middle
     Fix: User text align center to center the content of form
+28. When user writes in the text are in our food page review form, it is too much attached with the border.
+    Fix: Add padding of 12px in the text area.
