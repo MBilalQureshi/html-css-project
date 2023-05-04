@@ -64,3 +64,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: User text align center to center the content of form
 28. When user writes in the text are in our food page review form, it is too much attached with the border.
     Fix: Add padding of 12px in the text area.
+29. Change the Sign up for interface as it dosen't look good as per user point of view
+    Fix: Change background of sign up form to white, border radius to 20px and a shdow box effect.

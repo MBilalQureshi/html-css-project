@@ -332,8 +332,10 @@ fieldset,textarea{
 #sign-up-form{
     position: absolute;
     top: 15%;
-    background-color: rgba(26, 14, 14, 0.6) ;
-    color: #ffffff;
+    /* Fix as per discussion with mentor (change # 16, fix # 29): Change the Sign up for interface as it dosen't look good as per user point of view*/
+    /* background-color: rgba(26, 14, 14, 0.6) ; */
+    /* color: #ffffff; */
+    background-color: #fff;
     width: 350px;
     height: fit-content;
     padding: 30px;
@@ -341,11 +343,15 @@ fieldset,textarea{
     left: 35%;
     font-family: 'quicksand', sans-serif;
     font-size: xx-large;
+    border-radius: 20px;
+    /* Fix as per discussion with mentor (change # 16, fix # 29): Change the Sign up for interface as it dosen't look good as per user point of view, give shadow box effect as told by mentor*/
+    /* https://getcssscan.com/css-box-shadow-examples */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #sign-up-form > h2 {
     font-family: 'Dancing Script', sans-serif;
     text-align: center;
-    color: #ffffff;
+    /* color: #ffffff; */
     font-size: xxx-large;
     line-height: 70px;
 }
