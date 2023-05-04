@@ -54,3 +54,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     fix:remove aside from the our food html file and also removed the style that was applied on it
 23. Details element in ingredients is used which is causing lot of space
     Fix: Removed details element from our food page
+24. User review comments are on the right move them to middle
+    Fix: Use margin auto to fix the issue

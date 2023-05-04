@@ -257,6 +257,8 @@ background-color: #ffffff;
 }
 
 .user-comment{
+    /* Fix as per discussion with mentor (change # 11, fix # 24): Move User reviews to center use margin auto*/
+    margin: auto;
     padding: 20px 0 20px 20px;
     border: #1C1B1F 2px solid;
     width: 50%;
