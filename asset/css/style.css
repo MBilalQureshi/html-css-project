@@ -245,6 +245,7 @@ background-color: #ffffff;
 /* Fix13:This code fixs the overflow of last ingerdient list to below available content*/
 #main-panel{
     clear:right;
+    background-color: #FFD8E4;
 }
 #main-panel h2,#review-head{
     font-family: 'Dancing Script', sans-serif;
@@ -277,9 +278,6 @@ background-color: #ffffff;
     font-family: 'quicksand', sans-serif;
     text-align: right;
     margin-right: 30px;
-}
-aside{
-    background-color: #FFD8E4;
 }
 
 /* Review form */

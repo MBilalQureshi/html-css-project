@@ -50,3 +50,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Just remove the code for the background color
 21. Stretched images in our food page in some dimensions
     Fix: Remove height from the images in our food page
+22. Aside was used in our food page which is not required
+    fix:remove aside from the our food html file and also removed the style that was applied on it
