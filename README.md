@@ -66,3 +66,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Add padding of 12px in the text area.
 29. Change the Sign up for interface as it dosen't look good as per user point of view
     Fix: Change background of sign up form to white, border radius to 20px and a shdow box effect.
+30. The sign up label is not giving equal space from left and right on differnt screen sizes
+    Fix: Use the code provided by mentor: top: 50%; transform: translate(-50%, -50%); left: 50%;
