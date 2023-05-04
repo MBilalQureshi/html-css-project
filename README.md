@@ -52,3 +52,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Remove height from the images in our food page
 22. Aside was used in our food page which is not required
     fix:remove aside from the our food html file and also removed the style that was applied on it
+23. Details element in ingredients is used which is causing lot of space
+    Fix: Removed details element from our food page
