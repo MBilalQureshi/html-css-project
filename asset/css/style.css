@@ -1,66 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=PT+Sans:wght@300&family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=PT+Sans:wght@300&family=Quicksand&display=swap");
 
-*{
+* {
     padding: 0;
     margin: 0;
     border: none;
 }
 
 /* header */
-.home a{
+.home a {
     /*Issue # 1 The href decoration was still on Hot Bowl Cusine logo so it's set to none */
     text-decoration: none;
 }
 
-a > h1{
+a > h1 {
     /* Fix 4 Add float left so that on different screen sizes logo(Hot Bowl Cuisine) doesn't move to right */
-    float :left;
-    font-family: 'Dancing Script', sans-serif;
+    float: left;
+    font-family: "Dancing Script", sans-serif;
     display: inline;
     font-size: 280%;
     /* Change logo href color from blue to black */
-    color: black;    
+    color: black;
 }
 
-.home{
+.home {
     /* Issue # 2 The pink header strip was overflowing from right so width is set to auto instead of 100% */
     width: auto;
     height: 70px;
     padding: 10px 0 0 10px;
-    background-color: #FFD8E4;
+    background-color: #ffd8e4;
     line-height: 50px;
 }
-.nav{
-    float:right;
+.nav {
+    float: right;
     padding-right: 15px;
 }
-.menu li{
+.menu li {
     list-style: none;
     float: left;
     margin-right: 30px;
 }
-li a{
+li a {
     text-decoration: none;
     color: black;
     font-size: 200%;
-    font-family: 'Dancing Script', sans-serif;
+    font-family: "Dancing Script", sans-serif;
 }
 
 /* Main Image */
-#main-sec{
+#main-sec {
     position: relative;
 }
-#main-image{
+#main-image {
     height: 600px;
-    background: #EADDFF url('../images/background.webp') center center no-repeat;
+    background: #eaddff url("../images/background.webp") center center no-repeat;
     background-size: cover;
     /* Issue 3a add overflow hidden so that screen does not leave alot of white space on right (small screens)*/
     overflow: hidden;
 }
-#main-image-label{
-    font-family: 'Dancing Script', sans-serif;
-    font-size:xx-large;
-    background-color: rgba(26, 14, 14, 0.6) ;
+#main-image-label {
+    font-family: "Dancing Script", sans-serif;
+    font-size: xx-large;
+    background-color: rgba(26, 14, 14, 0.6);
     color: #ffffff;
     width: 350px;
     height: 300px;
@@ -72,77 +72,81 @@ li a{
     padding-right: 20px;
     padding-left: 20px;
     text-align: center;
-    border: 10px solid #633B48;
+    border: 10px solid #633b48;
 }
 
 /* search bar */
-#search-bar{
-    background-color: #EADDFF;
+#search-bar {
+    background-color: #eaddff;
     height: 70px;
 }
 #search-bar-inner {
     line-height: 75px;
     text-align: center;
 }
-#search-bar-inner > label{
-    font-family: 'Dancing Script', sans-serif;
+#search-bar-inner > label {
+    font-family: "Dancing Script", sans-serif;
     font-size: xx-large;
-    color: #1C1B1F;
+    color: #1c1b1f;
     font-weight: 900;
 }
-#search{
+#search {
     /* Fix as per discussion with mentor (change # 6, fix # 19): Reduce the font size of search bar*/
     font-size: x-large;
-    font-family:'PT sans', sans-serif;
+    font-family: "PT sans", sans-serif;
 }
 /* background image for demo cooking video */
-#food-vid{
+#food-vid {
     /* Fix as per discussion with mentor (change # 1, fix # 14): As shown in below link, change the background color to white and use blend mode to luminosity which changes background color to greyscale */
     /* https://stackoverflow.com/questions/16340159/greyscale-background-css-images/53068329#53068329 */
-    background: #fff url('../images/background-2.webp') no-repeat center center;
+    background: #fff url("../images/background-2.webp") no-repeat center center;
     background-attachment: fixed;
     text-align: center;
-    background-size: cover; 
+    background-size: cover;
     /* Issue 3b add overflow hidden so that screen does not leave alot of white space on right (small screens)*/
     overflow: hidden;
     background-blend-mode: luminosity;
 }
 /* About us */
-#about-us > h1{
-    font-family: 'Dancing Script', sans-serif;
+#about-us > h1 {
+    font-family: "Dancing Script", sans-serif;
     text-align: center;
-    background-color:#4A4458;
+    background-color: #4a4458;
     color: #ffffff;
     font-size: xxx-large;
     line-height: 70px;
 }
 #about-us p {
-    font-family: 'PT sans', sans-serif;
+    font-family: "PT sans", sans-serif;
     /* Fix as per discussion with mentor (change # 2,fix # 15): Change padding to 24px */
     padding: 24px;
     text-align: justify;
-    background-color: #E8DEF8;
-    line-height: 25px;  
+    background-color: #e8def8;
+    line-height: 25px;
 }
 /* Visit our kitchen */
-#visit-us{
+#visit-us {
     float: left;
     width: 33%;
-    background-color: #EADDFF;
+    background-color: #eaddff;
     height: 180px;
     border-right: 2px solid black;
 }
-#visit-us > h2,#contact > h2,#address > h2{
-    font-family: 'pt sans', sans-serif;
+#visit-us > h2,
+#contact > h2,
+#address > h2 {
+    font-family: "pt sans", sans-serif;
     text-align: center;
-    background-color: #1D192B;
+    background-color: #1d192b;
     color: #ffff;
 }
-table,th,td{
-    border: 2px solid #633B48;
+table,
+th,
+td {
+    border: 2px solid #633b48;
     width: 50%;
 }
-table{
+table {
     /* Fix as per discussion with mentor (change # 3,fix # 16): Change table background color to white due to visibility issue */
     background-color: #fff;
     /* Fix as per discussion with mentor (change # 4,fix # 17): Change margin to auto and after that give margin top*/
@@ -150,91 +154,90 @@ table{
     margin-top: 14px;
 }
 /* Phone Email */
-#contact{
+#contact {
     float: right;
     width: 33%;
-    background-color: #EADDFF;
+    background-color: #eaddff;
     height: 180px;
     border-left: 2px solid black;
 }
-.contact-inner{ 
+.contact-inner {
     font-weight: bold;
 }
-#contact-outer{
+#contact-outer {
     margin-top: 50px;
     text-align: center;
 }
 /* Address */
-#address{
-    background-color: #EADDFF;
+#address {
+    background-color: #eaddff;
     overflow: hidden;
 }
-#address p{
+#address p {
     height: 105px;
-    background-color: #EADDFF;
+    background-color: #eaddff;
     text-align: center;
     margin-top: 48px;
 }
 /* Footer */
-.social{
-    background-color: #1D192B;
+.social {
+    background-color: #1d192b;
     list-style: none;
     text-align: center;
-    
 }
-.social li{
+.social li {
     display: inline-block;
     /* Fix as per discussion with mentor (change # 5,fix # 18): Use px for margin not % in footer*/
-    margin:24px;
+    margin: 24px;
 }
-.social a{
-    color: #EADDFF;   
-    font-size: x-large; 
+.social a {
+    color: #eaddff;
+    font-size: x-large;
 }
 
 /* Our food */
 /* Top 3 rescipies */
-#top3 > h2{
-    font-family: 'Dancing Script', sans-serif;
+#top3 > h2 {
+    font-family: "Dancing Script", sans-serif;
     text-align: center;
-    background-color:#4A4458;
+    background-color: #4a4458;
     color: #ffffff;
     font-size: xxx-large;
     line-height: 70px;
 }
 
-.recipe > h3{
+.recipe > h3 {
     /*Fix12: On few tablet screen, even after fixing point number 10, the ingredients were still overflowing over the next content, clearing the right side of heading fixed it */
     clear: right;
     padding: 10px 0 10px 15px;
     text-align: left;
     background-color: #bbffdf;
-    font-family: 'pt sans', sans-serif;
+    font-family: "pt sans", sans-serif;
     font-size: xx-large;
 }
-.recipe img{
+.recipe img {
     /* Fix as per discussion with mentor (change # 8, fix # 21): Object fit cover has no impact, just removing height fixed the issue */
     width: 50%;
 }
-.details{
+.details {
     /* text-align: justify; */
     margin: 15px 20px 0 0;
     float: right;
-    width:47%;
-    font-family: 'quicksand', sans-serif;
+    width: 47%;
+    font-family: "quicksand", sans-serif;
     font-size: medium;
- }
- .col-seprate li{
+}
+.col-seprate li {
     margin: 0 10px 0 10px;
- }
- /* fix:11 https://stackoverflow.com/questions/21369843/is-there-a-way-to-make-numbers-in-an-ordered-list-bold */
- .col-seprate li::marker {
+}
+/* fix:11 https://stackoverflow.com/questions/21369843/is-there-a-way-to-make-numbers-in-an-ordered-list-bold */
+.col-seprate li::marker {
     font-weight: bold;
-  }
-  /* Fix:10: Asked from Code Institute tutor support */
- .col-seprate{
+}
+/* Fix:10: Asked from Code Institute tutor support */
+.col-seprate {
     column-count: 2;
-    column-gap:35px;
+    column-gap: 35px;
 }
 /* Fix as per discussion with mentor (change # 7, fix # 20): Removed the background color of top 3 recipies as this may be too much for some users */
 /* #top3{
@@ -243,15 +246,16 @@ background-color: #ffffff;
 
 /* User Reviews */
 /* Fix13:This code fixs the overflow of last ingerdient list to below available content*/
-#main-panel{
-    clear:right;
+#main-panel {
+    clear: right;
     /* Fix as per discussion with mentor (change # 13, fix # 26): Remove background color */
     /* background-color: #FFD8E4; */
 }
-#main-panel h2,#review-head{
-    font-family: 'Dancing Script', sans-serif;
+#main-panel h2,
+#review-head {
+    font-family: "Dancing Script", sans-serif;
     text-align: center;
-    background-color:#4A4458;
+    background-color: #4a4458;
     color: #ffffff;
     font-size: xxx-large;
     line-height: 70px;
@@ -259,77 +263,79 @@ background-color: #ffffff;
     margin-bottom: 16px;
 }
 /* Fix as per discussion with mentor (change # 12, fix # 25): Give margin on user comments section o top and bottom */
-#review-head{
+#review-head {
     margin-top: 16px;
 }
 
-.user-comment{
+.user-comment {
     /* Fix as per discussion with mentor (change # 11, fix # 24): Move User reviews to center use margin auto*/
     margin: auto;
     padding: 20px 0 20px 20px;
-    border: #1C1B1F 2px solid;
+    border: #1c1b1f 2px solid;
     width: 50%;
     line-height: 20px;
-    background-color: #EADDFF;
-
+    background-color: #eaddff;
 }
-.user-comment > h3{
-    font-family: 'quicksand', sans-serif;
+.user-comment > h3 {
+    font-family: "quicksand", sans-serif;
     font-weight: bold;
 }
 
-.user-comment > div{
-    font-family: 'quicksand', sans-serif;
+.user-comment > div {
+    font-family: "quicksand", sans-serif;
     margin-left: 30px;
 }
 
-.user-comment > footer{
-    font-family: 'quicksand', sans-serif;
+.user-comment > footer {
+    font-family: "quicksand", sans-serif;
     text-align: right;
     margin-right: 30px;
 }
 
 /* Review form */
-form{
+form {
     margin: 1% 0 1% 1%;
     /* Fix as per discussion with mentor (change # 14, fix # 27): move form contetnt to middle */
     text-align: center;
 }
-.review-inner{
-    font-family: 'quicksand', sans-serif;
+.review-inner {
+    font-family: "quicksand", sans-serif;
 }
-fieldset{
+fieldset {
     width: 50%;
 }
-fieldset,textarea{
+fieldset,
+textarea {
     border: solid;
     /* Fix as per discussion with mentor (change # 15, fix # 28): move form contetnt to middle */
     padding: 12px;
 }
 
 /* review and sign up submit */
-#submit-review,#sign-up-submit{
+#submit-review,
+#sign-up-submit {
     padding: 20px 20px 20px 20px;
-    font-family: 'quicksand', sans-serif;
+    font-family: "quicksand", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
 }
-#submit-review:hover, #sign-up-submit:hover{
-    background-color: #1C1B1F;
-    color: #FFD8E4;
+#submit-review:hover,
+#sign-up-submit:hover {
+    background-color: #1c1b1f;
+    color: #ffd8e4;
 }
 
 /* Sign up */
 /* Background */
-#sign-up-sec{
+#sign-up-sec {
     position: relative;
 }
-#sign-up-background{
-    background: url('../images/Sign-up-background.webp') center center no-repeat;
+#sign-up-background {
+    background: url("../images/Sign-up-background.webp") center center no-repeat;
     background-size: cover;
     height: 800px;
 }
-#sign-up-form{
+#sign-up-form {
     position: absolute;
     /* top: 15%; */
     /* Fix as per discussion with mentor (change # 16, fix # 29): Change the Sign up for interface as it dosen't look good as per user point of view*/
@@ -339,9 +345,9 @@ fieldset,textarea{
     width: 350px;
     height: fit-content;
     padding: 30px;
-    border: 10px solid #633B48;
+    border: 10px solid #633b48;
     /* left: 35%; */
-    font-family: 'quicksand', sans-serif;
+    font-family: "quicksand", sans-serif;
     font-size: xx-large;
     border-radius: 20px;
     /* Fix as per discussion with mentor (change # 16, fix # 29): Change the Sign up for interface as it dosen't look good as per user point of view, give shadow box effect as told by mentor*/
@@ -351,124 +357,127 @@ fieldset,textarea{
     /* Code By Mentor: Below is the code of how to fix a label givng it equal space from left and right no matter the screen size */
     top: 50%;
     transform: translate(-50%, -50%);
-    left: 49%
+    left: 49%;
 }
 #sign-up-form > h2 {
-    font-family: 'Dancing Script', sans-serif;
+    font-family: "Dancing Script", sans-serif;
     text-align: center;
     /* color: #ffffff; */
     font-size: xxx-large;
     line-height: 70px;
 }
-#fname, #lname, #email{
+#fname,
+#lname,
+#email {
     width: 100%;
-    font-family: 'quicksand', sans-serif;
+    font-family: "quicksand", sans-serif;
     font-size: x-large;
     border: 2px solid saddlebrown;
 }
-#email{
+#email {
     margin-bottom: 5px;
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width: 950px) {
     /* Contact */
-    #contact{
+    #contact {
         clear: left;
         border: none;
         width: 100%;
     }
-    table{
+    table {
         /* Fix 9: The tabel overflows from bottom to to next content on small screens, required margin from top */
         margin-top: 15px;
         margin-left: 25%;
     }
-    #visit-us{
+    #visit-us {
         clear: right;
         width: 100%;
         border: none;
     }
     /* Address */
-    #address{
+    #address {
         clear: both;
     }
     /* Top 3 rescipies */
-    #top3 > h2{
+    #top3 > h2 {
         font-size: xx-large;
     }
 
-    .recipe > h3{
+    .recipe > h3 {
         font-size: x-large;
     }
-    .recipe img{
+    .recipe img {
         /* Fix as per discussion with mentor (change # 8, fix # 21): Object fit cover has no impact, just removing height fixed the issue */
         width: 100%;
     }
-    .details{
+    .details {
         float: none;
-        width:90%;
+        width: 90%;
         margin: 5% 5% 0% 5%;
-     }
-     #main-panel h2,#review-head{
+    }
+    #main-panel h2,
+    #review-head {
         font-size: xx-large;
-     }
-     .user-comment{
-        width:inherit;
-     }
-    #review{
+    }
+    .user-comment {
+        width: inherit;
+    }
+    #review {
         width: 90%;
     }
-    #sign-up-form{
+    #sign-up-form {
         width: 65%;
         height: fit-content;
     }
 }
- /* Fix 5:Fix nav bar moving below logo issue for tablet screen */
-@media screen and (max-width:750px){
+/* Fix 5:Fix nav bar moving below logo issue for tablet screen */
+@media screen and (max-width: 750px) {
     /* Nav */
-    .home{
+    .home {
         height: 112px;
     }
-    .nav{
+    .nav {
         clear: left;
-        float:left;
+        float: left;
     }
-    li a{
+    li a {
         font-size: 25px;
     }
     /* Main Image cover */
-   #main-image-label{
-       margin-left: 25px;
-       top: 25px;
-       width: 60%;
-       height: fit-content;
-   }
-   /* Fix 8 : Fix of incorrect width and height of video on home page for tablet screens */
-    /* Food video-Iframe */
-    iframe{
-        width:fit-content;
+    #main-image-label {
+        margin-left: 25px;
+        top: 25px;
+        width: 60%;
         height: fit-content;
     }
-   /* Fix 7:Fix search bar moving below its label on tablets screens */
-   /* Search Bar */
-   #search-bar{
-    height: 125px;
+    /* Fix 8 : Fix of incorrect width and height of video on home page for tablet screens */
+    /* Food video-Iframe */
+    iframe {
+        width: fit-content;
+        height: fit-content;
     }
-    #search-bar-inner > label{
+    /* Fix 7:Fix search bar moving below its label on tablets screens */
+    /* Search Bar */
+    #search-bar {
+        height: 125px;
+    }
+    #search-bar-inner > label {
         float: left;
-        margin-left:15px ;
+        margin-left: 15px;
     }
-    #search{
-        margin-left:15px ;
+    #search {
+        margin-left: 15px;
         clear: left;
         float: left;
     }
 }
 /* Fix 6: Fix search bar overflows to blank space issue on much smaller mobile screens */
-@media screen and (max-width:450px){
-    #search{
+@media screen and (max-width: 450px) {
+    #search {
         width: 70%;
     }
-    table{
+    table {
         width: fit-content;
     }
 }
