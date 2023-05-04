@@ -292,6 +292,11 @@ background-color: #ffffff;
 /* Review form */
 form{
     margin: 1% 0 1% 1%;
+    /* Fix as per discussion with mentor (change # 14, fix # 27): move form contetnt to middle */
+    text-align: center;
+}
+.review-inner{
+    font-family: 'quicksand', sans-serif;
 }
 fieldset{
     width: 50%;

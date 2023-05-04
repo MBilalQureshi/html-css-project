@@ -60,3 +60,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Added margin on top and bottom of user comments section
 26. Remove the pink background color from user comments section as there are already other color and this will be too much
     Fix: Removed the pink background color
+27. Give us a review form was on right, as per user point of view it should be in middle
+    Fix: User text align center to center the content of form
