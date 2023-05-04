@@ -254,6 +254,12 @@ background-color: #ffffff;
     color: #ffffff;
     font-size: xxx-large;
     line-height: 70px;
+    /* Fix as per discussion with mentor (change # 12, fix # 25): Give margin on user comments section o top and bottom */
+    margin-bottom: 16px;
+}
+/* Fix as per discussion with mentor (change # 12, fix # 25): Give margin on user comments section o top and bottom */
+#review-head{
+    margin-top: 16px;
 }
 
 .user-comment{

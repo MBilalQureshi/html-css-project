@@ -56,3 +56,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Removed details element from our food page
 24. User review comments are on the right move them to middle
     Fix: Use margin auto to fix the issue
+25. There is no margin on top and bottom of the user comments section
+    Fix: Added margin on top and bottom of user comments section
