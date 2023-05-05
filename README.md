@@ -68,3 +68,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Change background of sign up form to white, border radius to 20px and a shdow box effect.
 30. The sign up label is not giving equal space from left and right on differnt screen sizes
     Fix: Use the code provided by mentor: top: 50%; transform: translate(-50%, -50%); left: 50%;
+31. On some tablet screens the images on our food page size is less than its ingredients list leaveing alot of space below image. In this case image and ingredients list is parallel to each other.
+    Fix: Use media query for tablet screen sizes less than 1224px and than set the imag width to 70% and moving the ingredients content below it.

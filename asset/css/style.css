@@ -379,6 +379,19 @@ textarea {
     margin-bottom: 5px;
 }
 
+/*  */
+@media screen and (max-width: 1224px) {
+    .recipe img{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .details {
+        float: none;
+        width: 90%;
+        margin: 5% 5% 0% 5%;
+    }
+}
+
 @media screen and (max-width: 950px) {
     /* Contact */
     #contact {
@@ -411,6 +424,7 @@ textarea {
     .recipe img {
         /* Fix as per discussion with mentor (change # 8, fix # 21): Object fit cover has no impact, just removing height fixed the issue */
         width: 100%;
+        margin-left: 0;
     }
     .details {
         float: none;
