@@ -319,6 +319,8 @@ textarea {
     font-family: "quicksand", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    /* Fix 32,  Mentor, Put cursor pointer on buttons */
+    cursor: pointer;
 }
 #submit-review:hover,
 #sign-up-submit:hover {
