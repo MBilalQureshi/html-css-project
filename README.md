@@ -26,9 +26,38 @@ There is weekly top 3 recipies for the website users. Users can submit their rev
 
 - Search Bar
     - The search bar is used to search for the recipies you like.
+    - User can directly search for the required recipie instead of navigating the whole website.
 
 ![Screenshot of Hot Bowl Cuisine home page landing image and label](/assets/images/search-bar.png)
 
+- Featuring Video
+    - On the back side of the featuring video, there is a greyscale image to beautify the look of the video.
+    - The featuring video is basically to tell the website users how the food is prepared along with the list of required recipies.
+
+![Screenshot of Hot Bowl Cuisine featuring video](/assets/images/featuring-video.png)
+
+- About us
+    - About us section tells the users how they can make international dishes at home.
+    - What different varieties of dishes users can try.
+    - There is also an option to open the main youtube channel in new tab by clicking the link available in about us section.
+
+![Screenshot of about us at home page](/assets/images/about-us.png)
+
+- Visit Our kitchen
+    - The time table shows the user when they can come to visit, share their thoughts, give suggestions or have a cup of coffee with chef.
+- Address
+    - This section tells the user where to come for visit.
+- Our Contact
+    - User can contact the chef and get appointment before visiting.
+    - User can either contact via phone or email.
+
+![Screenshot of details related visiting hours, address and our contact](/assets/images/details.png)
+
+- Footer
+    - Using the social media links in footer user can easily stay connected with Hot Bowl Cuisine and know what's new, are there any new recipies to try or which are top three weekly recipies.
+    - All the social media links will open in new tab for users feasibility.
+
+![Screenshot of details related visiting hours, address and our contact](/assets/images/footer.png)
 
 
 ## Fixes
