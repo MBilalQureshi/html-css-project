@@ -76,7 +76,16 @@ There is weekly top 3 recipies for the website users. Users can submit their rev
     - Users can give their feedback which will be added to user reviews.
     - Feedback can be positive or negative but based on that it will help future users to better undestand the website.
 
-![Screenshot of our User reviews on our food page](/assets/images/how-are-we-doing.png)
+![Screenshot of how we are doing form](/assets/images/how-are-we-doing.png)
+
+- The Sign Up page
+    - It's important write first name, last name and email. All this information is required to submit the form to get benifits of the Hot Bowl Cuisine community.
+    - User can sign up to get weekly news letter related world wide trending food recipies.
+    - User will also be able to know what happening in the Hot Bowl Cuisine kitchen next week.
+
+![Screenshot of complete sign up page](/assets/images/sign-up.png)
+
+
 ## Fixes
 1. Hot bowl Cuisine logo link is not working and there is still a line under it.
     Fix: Add text-decoration: none; on .home a and changed its color to black.
