@@ -57,9 +57,26 @@ There is weekly top 3 recipies for the website users. Users can submit their rev
     - Using the social media links in footer user can easily stay connected with Hot Bowl Cuisine and know what's new, are there any new recipies to try or which are top three weekly recipies.
     - All the social media links will open in new tab for users feasibility.
 
-![Screenshot of details related visiting hours, address and our contact](/assets/images/footer.png)
+![Screenshot of social media links in footer](/assets/images/footer.png)
 
+- Our top 3 recipies
+    - On our food page, user can see what weekly top 3 recipies are trending.
+    - On clicking the image of any of the top three trending recipies, user can switch to youtube channel where he/she can see the whole video and try making the same recipie at home.
+    - In top 3 recipies section user is also able to see the Ingredients list to prepare the food.
 
+![Screenshot of our food page's top three recipies](/assets/images/top3-recipies.png)
+
+- User Reviews
+    - Users can see the what others think about the services provided by Hot Bowl Cuisine.
+    - User can also decide if they want to become a proper visitor based on the reviews provided by other users.
+
+![Screenshot of our User reviews on our food page](/assets/images/user-reviews.png)
+
+- How are we doing?
+    - Users can give their feedback which will be added to user reviews.
+    - Feedback can be positive or negative but based on that it will help future users to better undestand the website.
+
+![Screenshot of our User reviews on our food page](/assets/images/how-are-we-doing.png)
 ## Fixes
 1. Hot bowl Cuisine logo link is not working and there is still a line under it.
     Fix: Add text-decoration: none; on .home a and changed its color to black.
