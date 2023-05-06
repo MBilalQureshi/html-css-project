@@ -1,7 +1,7 @@
 # Hot Bowl Cuisine
 This website is about cooking desi foods. It is based on a youtube cooking channel [Hot Bowl Cuisine](https://www.youtube.com/@hotbowlcuisine/featured). One can learn cooking by watching the videos that are linked with website.
 
-Food lovers are more than welcome to come and socialise even take part in upcoming cooking sessions or have a cup of coffee with chef. This website provides the information related kitchen visiting hours for those who wants to meet. contact and address information so that users can get in touch before visiting.
+Food lovers are more than welcome to come and socialise even take part in upcoming cooking sessions or have a cup of coffee with chef. This website provides the information related kitchen visiting hours for those who wants to meet. The contact and address information is also provided so that users can get in touch before visiting.
 
 There is weekly top 3 recipies for the website users. Users can submit their reviews based on their experince and obviously sign up.
 
