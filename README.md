@@ -76,3 +76,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Remove absolute and relative positiong, add background image in section use siplay flex.
 34. Second background image size is too large which is cauusing performace issue.
     Fix: Used and online resize tool to reduce size of image and replace it with the current image.
+35. Move navigation to middle of screen instead remaining on left on small screens.
+    Fix: Used flex to fix this.

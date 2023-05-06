@@ -462,6 +462,12 @@ textarea {
     /* Nav */
     .home {
         height: 112px;
+        /*Fix:35, Mentor, Move navigation to middle of screen istead on left on small screens and few tablet screens */
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .nav {
         clear: left;
