@@ -74,3 +74,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Add cursor pointer at buttons in stylesheet.
 33. A lot of white space was at the bottom of sign up page on many screen sizes.
     Fix: Remove absolute and relative positiong, add background image in section use siplay flex.
+34. Second background image size is too large which is cauusing performace issue.
+    Fix: Used and online resize tool to reduce size of image and replace it with the current image.
