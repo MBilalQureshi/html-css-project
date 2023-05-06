@@ -5,7 +5,7 @@ Food lovers are more than welcome to come and socialise even take part in upcomi
 
 There is weekly top 3 recipies for the website users. Users can submit their reviews based on their experince and obviously sign up.
 
-![Screenshot of Hot Bowl Cuisine website mockup](../html-css-project/assets/images/html-css-project1-mockup.png)
+![Screenshot of Hot Bowl Cuisine website mockup](/assets/images/html-css-project1-mockup.png)
 
 ## Features
 - Navigation Bar
@@ -15,19 +15,19 @@ There is weekly top 3 recipies for the website users. Users can submit their rev
     - Website user can easily navigate through website using these links.
     - Keeping kitchen and cooking theme in mind navigation bar background color, font color and font is carefully selected for best user experience.
 
-![Screenshot of Hot Bowl Cuisine website navigation bar](../html-css-project/assets/images/nav-bar.png)
+![Screenshot of Hot Bowl Cuisine website navigation bar](/assets/images/nav-bar.png)
 
 - The landing page image
     - There is a background image which has bread, vegtables and fruits in it which defines own its on what the page is about.
     - On the right side of background image there is a label on which a  very popular quotation of Wolfgang Puck is written for user attraction.
     - The label background color, font and font color itself is very beautiful to grab the attention of this website users.
 
-![Screenshot of Hot Bowl Cuisine home page landing image and label](../html-css-project/assets/images/landing-image.png)
+![Screenshot of Hot Bowl Cuisine home page landing image and label](/assets/images/landing-image.png)
 
 - Search Bar
     - The search bar is used to search for the recipies you like.
 
-![Screenshot of Hot Bowl Cuisine home page landing image and label](../html-css-project/assets/images/search-bar.png)
+![Screenshot of Hot Bowl Cuisine home page landing image and label](/assets/images/search-bar.png)
 
 
 
