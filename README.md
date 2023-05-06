@@ -1,9 +1,9 @@
 # Hot Bowl Cuisine
-This website is about cooking desi foods. One can learn cooking by watching the videos. It is based on a youtube cooking channel [Hot Bowl Cuisine](https://www.youtube.com/@hotbowlcuisine/featured).
+This website is about cooking desi foods. It is based on a youtube cooking channel [Hot Bowl Cuisine](https://www.youtube.com/@hotbowlcuisine/featured). One can learn cooking by watching the videos that are linked with website.
 
-On home page website user can get the information related kitchen visiting hours, contact and address. There is also one video to tell the users how the food is prepared and made.
-On Our kitchen page user can see top 3 recipies, other user reviews and a text area to add own review.
-There is also a sign up page for users to get signed up.
+Food lovers are more than welcome to come and socialise even take part in upcoming cooking sessions or have a cup of coffee with chef. This website provides the information related kitchen visiting hours for those who wants to meet. contact and address information so that users can get in touch before visiting.
+
+There is weekly top 3 recipies for the website users. Users can submit their reviews based on their experince and obviously sign up.
 
 ## Fixes
 1. Hot bowl Cuisine logo link is not working and there is still a line under it.
@@ -78,3 +78,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Used and online resize tool to reduce size of image and replace it with the current image.
 35. Move navigation to middle of screen instead remaining on left on small screens.
     Fix: Used flex to fix this.
+36. The featuring video on home page width and height might not be good enough for small screen users.
+    Fix: Change the width and height of the featuring video.
