@@ -161,3 +161,5 @@ Fix:Used stack overflow to see how to change ordered list marker to bold.
     Fix: Used flex to fix this.
 36. The featuring video on home page width and height might not be good enough for small screen users.
     Fix: Change the width and height of the featuring video.
+37. Form in our food was submitting values without any entry.
+    Fix: Add required to the text area element.
