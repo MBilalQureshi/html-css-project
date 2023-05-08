@@ -1,9 +1,9 @@
 # Hot Bowl Cuisine
-This website is about cooking desi foods. It is based on a YouTube cooking channel [Hot Bowl Cuisine](https://www.youtube.com/@hotbowlcuisine/featured). One can learn cooking by watching the videos on Youtube that are linked with site.
+This website is about cooking desi foods. It is based on a YouTube cooking channel [Hot Bowl Cuisine](https://www.youtube.com/@hotbowlcuisine/featured). One can learn cooking by watching the videos on YouTube that are linked with site.
 
 Food lovers are more than welcome to come and socialize even take part in upcoming cooking sessions or have a cup of coffee with chef. This website provides the information related kitchen visiting hours for those who wants to meet. The contact and address information are also provided so that users can get in touch before visiting.
 
-There are weekly top 3 recipes for the website users. Users can submit their reviews based on their experience and obviously sign up.
+User will know about weekly top 3 trending recipes. Users can submit their reviews based on their experience and obviously sign up to get information about what’s going to happen in upcoming weeks at Hot Bowl Cuisine.
 
 ![Screenshot of Hot Bowl Cuisine website mockup](/assets/images/html-css-project1-mockup.png)
 
@@ -95,7 +95,6 @@ There are weekly top 3 recipes for the website users. Users can submit their rev
 - I confirmed that in sign up page all inputs from user is required and can't be left empty.
 - I confirmed that text area in our food page can't be left empty during submission.
 - I confirmed that submit button on our food and sign up page works.
-- I confirmed that website is responsive on various devices provided by google chrome devtools device toolbar.
 - I confirmed all the links in footer, about us and top 3 recipes opens in new tab.
 
 [Click here to see the full list of bugs and fixes during development](/TESTING.md)

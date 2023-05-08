@@ -108,7 +108,7 @@ li a {
     background-blend-mode: luminosity;
 }
 /* About us */
-#about-us > h1 {
+#about-us > h2 {
     font-family: "Dancing Script", sans-serif;
     text-align: center;
     background-color: #4a4458;
@@ -410,6 +410,9 @@ textarea {
         border: none;
         width: 100%;
     }
+    #about-us > h2 {
+        font-size: xx-large;
+    }
     table {
         /* Fix 9: The tabel overflows from bottom to to next content on small screens, required margin from top */
         margin-top: 15px;
@@ -457,7 +460,7 @@ textarea {
         height: fit-content;
     }
 }
-/* Fix 5:Fix nav bar moving below logo issue for tablet screen */
+/* Fix 5:Fix nav bar moving below label issue for tablet screen */
 @media screen and (max-width: 750px) {
     /* Nav */
     .home {

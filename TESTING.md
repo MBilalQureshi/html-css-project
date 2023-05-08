@@ -1,87 +1,165 @@
 # List of bugs and fixes during development
-1. Hot bowl Cuisine logo link was not working and there was still hyperlink line under it.
-
-    **Fix:** Add text-decoration to none, change its color to black and fix the broken link.
+1. Hot bowl Cuisine logo link was not working and there was still hyperlink line under it after styling.
+    ### Fix:
+        - Set text-decoration: none; for valid header tags.
+        - Add color: black;
+        - Fix the broken link in html.
     
 2. Header background pink color gets overflowed from right on small screens.
 
-    **Fix:** Set width to auto instead of 100%.
+    ### Fix:
+        - Set width: auto; instead of 100%.
 
-3. Both background images were causing lot of white space from left side on small screens.
+3. Both background images on home page were causing lot of white space from left side on small screens.
 
-    **Fix:** Add overflow to hidden for both backgroud images.
+    ### Fix:
+        - Add overflow: hidden; for both background images.
 
 4. Hot Bowl cuisine logo moves to right on middle size screens.
 
-    **Fix:** Use float left to fix the logo.
+    ### Fix:
+        - Use float: left; to fix the logo.
 
-<!-- 5. On Tablets nav option moves below the logo
-    **Fix:**Set max width to 750px in media query and move the nav styling from first media query to there. -->
-6. On mobile screens smaller than 450px search bar overflows its self to right edge of screen.
+5. On mobile screens smaller than 450px search bar extends its self to right edge of screen.
 
-    **Fix:** Set width of search bar to 70% and add media query of max width of 450px.
+    ### Fix:
+        - Make media query of max width of 450px.
+        - Set width: 70%; for search bar.
 
-7. On tablets search bar moves below its label
-    **Fix:** Move code from first media query to the second one.
-8. On tablets video on home page has false width height as per tablet screens
-    **Fix:**Move code from first media query to the second one.
-9. The tabel overflows from bottom to to next content on small screens
-    **Fix:**Add margin on top
-9.1. The issue number 9 still persist on small screens
-    **Fix:** Fix the width for small screen using media query fix the issue.
-10. The ingredients list was overflowing over the next available content, Used multiple methods to fix it using, inline, inline block, float right changing div to span, nothing worked
-    **Fix:**Using Tutuor support fixed the issue using col-count and set it to 2.
-11. Fixing the issue of changing ordered list values to bold 
-**Fix:**Used stack overflow to see how to change ordered list marker to bold.
-12. At some point the issue number 10 works but still ingredients content is overflowing to the next availaible contetnt
-    **Fix:** At the next available content use clear right to avoid this issue.
-13. The last ingredient list also overflows to below available content
-    **Fix:** Use clear right on below avaialble content (#main-panel) to fix this.
-14. As per discussion change second background image on home page to greyscale.
-    **Fix:** Change background color to white and use background property of background-blend-mode to luminosity.
-15. Padding of about us is invalid
-    **Fix:** Remove previous padding and change it to 24px
-16. Visit our kitchen time table at home page visibilty is not correct.
-    **Fix:** Change background color to white
-17. Visit our kitchen time table at home page margin which was already taken care off at fix number 9 still had margin issues
-    **Fix:** Change margin to auto and after that give margin top of 14px
-18. In footer for margin percentage was used which is not a good practice
-    **Fix:** Change percentage to px for margin in footer 
-19. Change the font size of search bar at home page
-    **Fix:** Change the font size from xx-large to x-large
-20. Remove top 3 background color as it might be too much color for some users
-    **Fix:** Just remove the code for the background color
-21. Stretched images in our food page in some dimensions
-    **Fix:** Remove height from the images in our food page
-22. Aside was used in our food page which is not required
-    **Fix:**remove aside from the our food html file and also removed the style that was applied on it
-23. Details element in ingredients is used which is causing lot of space
-    **Fix:** Removed details element from our food page
-24. User review comments are on the right move them to middle
-    **Fix:** Use margin auto to fix the issue
-25. There is no margin on top and bottom of the user comments section
-    **Fix:** Added margin on top and bottom of user comments section
-26. Remove the pink background color from user comments section as there are already other color and this will be too much
-    **Fix:** Removed the pink background color
-27. Give us a review form was on right, as per user point of view it should be in middle
-    **Fix:** User text align center to center the content of form
-28. When user writes in the text are in our food page review form, it is too much attached with the border.
-    **Fix:** Add padding of 12px in the text area.
-29. Change the Sign up for interface as it dosen't look good as per user point of view
-    **Fix:** Change background of sign up form to white, border radius to 20px and a shdow box effect.
-30. The sign up label is not giving equal space from left and right on differnt screen sizes
-    **Fix:** Use the code provided by mentor: top: 50%; transform: translate(-50%, -50%); left: 50%;
-31. On some tablet screens the images on our food page size is less than its ingredients list leaveing alot of space below image. In this case image and ingredients list is parallel to each other.
-    **Fix:** Use media query for tablet screen sizes less than 1224px and than set the img width to 70% and moving the ingredients content below it.
-32. The buttons there should be a point cursor instead of normal mouse pointer
-    **Fix:** Add cursor pointer at buttons in stylesheet.
-33. A lot of white space was at the bottom of sign up page on many screen sizes.
-    **Fix:** Remove absolute and relative positiong, add background image in section use siplay flex.
-34. Second background image size is too large which is cauusing performace issue.
-    **Fix:** Used and online resize tool to reduce size of image and replace it with the current image.
-35. Move navigation to middle of screen instead remaining on left on small screens.
-    **Fix:** Used flex to fix this.
-36. The featuring video on home page width and height might not be good enough for small screen users.
-    **Fix:** Change the width and height of the featuring video.
-37. Form in our food was submitting values without any entry.
-    **Fix:** Add required to the text area element.
+6. On tablets search bar moves below its label
+    ### Fix:
+        - Make media query of max width of 750px and write navigation code in it instead of inside 950px screens.
+
+7. The time table overflows from bottom to next content on small screens
+    ### Fix:
+        - Add margin-top: 15px; inside media query of max width of 950px.
+        - Add width: fit-content; inside media query of max width of 450px.
+
+8. The ingredients list was overflowing over the next available content below it on medium screen sizes.
+    ### Fix:
+        - Using Tutor support fixed the issue by adding column-count: 2;
+
+9. Ingredients Ordered list numeric values marker was not turning to bold.
+    ### Fix:
+        - Learned from stack overflow that I just needed to add ::marker with class name and give font-weight: bold;
+
+10. At some point the issue number **8** works but still ingredients content is overflowing to the next available content.
+    ### Fix:
+        - At the next available content use clear: right; to avoid this.
+
+11. The last ingredient list also overflows to below available content
+    ### Fix:
+        - Use clear: right; on user reviews div to fix this.
+
+12. Form in our food was submitting values without any entry.
+    ### Fix:
+     Add required to the text area tags.
+
+## **Fixes after discussion with mentor**
+
+13. Change second background image on home page to greyscale but not the content on top of it.
+    ### Fix: 
+        - Learned from stack overflow that I need to change background color to white and use background property of background-blend-mode: luminosity;
+
+14. Padding of about us paragraph was invalid
+    ### Fix:
+        - Remove previous padding and change it to 24px
+
+15. Visit our kitchen time table at home page visibility was really low and it was hard to see the time table.
+    ### Fix: 
+        - Change table background color to white.
+
+16. Visit our kitchen time table at home page margin which was already taken care off at fix number **7** still had margin issues
+    ### Fix:
+        - Change margin to auto and after that give margin top of 14px but not inside media query.
+
+17. In footer for margin percentage was used better practice is to use px as per discussion with mentor.
+    ### Fix: 
+        - Change percentage to px for margin in footer 
+
+18. Change the font size of search bar at home page just a little bit.
+    ### Fix:
+        - Change the font size from xx-large to x-large
+
+19. Remove background color from our food page where ingredients were mentioned as it might be too much colors for some users
+    ### Fix: 
+        - Simply remove the code for the background color
+
+20. Stretched images in our food page in some screen sizes
+    ### Fix: 
+        - Remove height from the images in our food page.
+
+21. Aside was used in our food page which is not required.
+
+    ### Fix: 
+        - Simply remove aside from our food html file and also removed the style that was applied on it.
+
+22. Details tag in ingredients was causing lot of white space unless user clicks on it. Remove it for better user interface.
+    ### Fix: 
+        - Simply removed details tag from our food page.
+
+23. User comments on our food page are on the right move them to middle for better UI.
+    ### Fix: 
+        - Use margin: auto; on the outer most div for user comments.
+
+24. There is no margin on top and bottom of the user comments section
+    ### Fix: 
+        - Added margin on top and bottom of user comments section
+       
+25. Remove the pink background color from user comments section as there are already other color and this will be too much from user point of view.
+    ### Fix: 
+        - Simply remove the pink background color.
+
+26. Give us a review form was on right, as per user point of view it should be in middle on large screens.
+    ### Fix: 
+        - Use text-align: center; to move the text area and submit button to middle.
+
+27. When user writes in the text are in our food page review form, it is too much attached with the border.
+    ### Fix: 
+        - Add padding: 12px; in the text area.
+28. Change the Sign up for interface as it doesn’t look good as per user point of view
+    ### Fix: 
+        - Change background of sign up form to white, border radius to 20px and a shadow box effect.
+
+29. On some tablet screens the images on our food page size is less than its ingredients list leaving a lot of space below image. In this case image and ingredients list is parallel to each other.
+    ### Fix:
+        - Use media query for tablet screen sizes less than 1224px and then set the image width to 70% and moving the ingredients content below it.
+
+30. On hovering over buttons mouse cursor should change to pointer.
+    ### Fix:
+        - Add cursor: pointer; at buttons.
+
+31. A lot of white space was at the bottom of sign up page on many screen sizes.
+    ### Fix: 
+        Use min-height: calc(100vh - 150px); as told by mentor.
+32. The sign up label is not giving equal space from left and right on different screen sizes.
+    ### Fix 1:
+        - Remove absolute positioning from sign up page, move background image in section tag which has id of sign-up-sec and finally use flex. The code is shared by mentor.
+        background: url("../images/Sign-up-background.webp") center center no-repeat;
+        background-size: cover;
+        position: relative;
+        min-height: calc(100vh - 150px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    ### Fix 2:   
+        - There was another solution which is mentioned below
+        top: 50%; transform: translate(-50%, -50%); left: 50%;
+
+    I have tried both solutions but used the first one.
+
+33. Second background image size is too large which is causing performance issue.
+    ### Fix: 
+        - Use online resize tool to reduce size of image and replace it with the current image also change it to webp format.
+
+34. Move navigation to middle of screen instead keeping it on left side of small screens.
+    ### Fix: 
+        - Use flex to fix this inside media query of max width of 750px. See the solution below.
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+35. The featuring video on home page width and height might not be good enough for small screen users.
+    ### Fix:
+        - Change width: 90%; and height: 300px; of the featuring video inside media query of max width of 750px.
