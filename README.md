@@ -120,3 +120,25 @@ This website was deployed at Github pages. The steps of deployment are mentioned
 4. After some time, the same page will provide the link on top mentioning that the site is now live.
 
 The live link can be found here - [Hot Bowl Cuisine](https://mbilalqureshi.github.io/html-css-project/)
+
+## Credits
+### Content
+- Basic concepts of making website is understood from Code Institute's [Love Running](https://ajgreaves.github.io/love-running/) project.
+- The icons in footer is taken from [Font awesome](https://fontawesome.com/)
+### Media
+- The First background image on home page was taken from [Elle Hughes](https://www.pexels.com/photo/flatlay-photography-of-strawberries-and-sliced-bread-1660030/) available on pexel website.
+- The Second background image on home page was taken from [Alari Tammsalu](https://www.pexels.com/photo/half-sliced-avocado-and-green-leaves-on-wooden-table-6738767/) available on pexel website.
+- The background image on sign up page was taken from [Lukas](https://www.pexels.com/photo/variety-of-vegetables-616401/) available on pexel website.
+- The featuring video on home page is taken from Hot Bowl Cuisine's [this](https://www.youtube.com/watch?v=DewLt534r14&t=3s) youtube video.
+- The about us text was taken from Hot Bowl Cuisine's [About us](https://www.youtube.com/@hotbowlcuisine/about) section on youtube.
+- The top 3 recipies list and some part of text is taken from the following sources on youtube mentioned below
+    - [Turkish Chicken Soup](https://www.youtube.com/watch?v=5-g1YJkEycA&t=3s)
+    - [Ginger Garlic Fish](https://www.youtube.com/watch?v=BKi_7ivYxiU)
+    - [Weight Loss Steam Roast Chicken](https://www.youtube.com/watch?v=1mT3B-IOTt8&t=231s)
+### Extra Help
+- Aria labels for background images with css require role to be defined as image in html tags. I have learned [this](https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible) from stackoverflow.
+- The code of making background image greyscale but not the content on top it is taken from [this](https://stackoverflow.com/questions/16340159/greyscale-background-css-images/53068329#53068329) stackoverflow link.
+- The concept of making ordered list marker's numeric values bold is learned from [this](https://stackoverflow.com/questions/21369843/is-there-a-way-to-make-numbers-in-an-ordered-list-bold) stackoverflow link.
+- Learned the concept of [box shadow](https://getcssscan.com/css-box-shadow-examples) from Mentor Akshat Garg.
+- Learned the concept of [Flex](https://flexboxfroggy.com/) from Mentor Akshat Garg.
+- Learned the concept of column count from code Institute's tutor.
