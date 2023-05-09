@@ -15,10 +15,10 @@
             <div class="home">
                 <a href="index.html" aria-label="Go to home page to see our featuring video, about us, our visiting hours, address and contact"><h1>Hot Bowl Cuisine</h1></a>
 
+                <!-- Navigation -->
                 <nav class="nav">
                     <ul class="menu">
                         <li><a href="index.html" aria-label="Go to home page to see our featuring video, about us, our visiting hours, address and contact">Home</a></li>
-                        <!-- Change page name to our food -->
                         <li><a href="our-food.html" aria-label="Go to our food page to see top three recipes, user comments and give us a review section">Our Food</a></li>
                         <li><a href="sign-up.html" aria-label="Go to sign up page to sign up">Sign up</a></li>
                     </ul>
@@ -28,8 +28,7 @@
 
         <!-- Main Image -->
         <section id="main-sec">
-            <!-- Require role for this aria-label to work -->
-            <!-- https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible -->
+            <!-- I used this link (https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible) for understanding how role="img" works with aria lables for images mentioned in css -->
             <div id="main-image" role="img" aria-label="On the left side of a white table some Bread, fruits and vegtables are placed"></div>
             <h2 id="main-image-label">“Cooking is like painting or writing a song. Just as there are only so many notes or colors, there are only so many flavors—it’s how you combine them that sets you apart.” – Wolfgang Puck</h2>
         </section>
@@ -42,7 +41,7 @@
             </div>
         </div>
 
-        <!-- Demo Video of Hot Bowl Cuisine Channel -->
+        <!-- Featuring Video of Hot Bowl Cuisine channel -->
         <div id="food-vid" role="img" aria-label="There are leaves placed on a wooden table and an avacado in middle">
             <iframe
                 aria-label="A women tells about how to cook butter chicken along with the list of recipes"
@@ -55,11 +54,11 @@
             ></iframe>
         </div>
 
-        <!-- About Us -->
-        <!-- Text copied from https://www.youtube.com/@hotbowlcuisine/about -->
+        <!-- About Us -->        
         <div id="about-us">
             <h2>About Us</h2>
             <p>
+                <!-- Text copied from https://www.youtube.com/@hotbowlcuisine/about -->
                 "Hot Bowl Cuisine" is here to present you with the most Easy, quick and Delicious food recipes and food tips that you need to fulfill your cravings. We are going to show you the easiest methods to cook food with yummy taste.
                 Also we are going to present you food items that can be cooked with the available ingredients in your home. We are very happy to tell you about our high experience in cooking Desi/Continental/Chinese and many other
                 international dishes. Most of us don't want to waste our money in restaurants. I know most of you agree. Our team is here to present you food with much better taste. We are going to teach you the method of cooking healthy
@@ -76,8 +75,8 @@
             </p>
         </div>
 
-        <!-- Opening time -->
         <section>
+            <!-- Visiting hours -->
             <div id="visit-us">
                 <h2>Visit Our Kitchen</h2>
                 <table>
@@ -99,7 +98,8 @@
                     </tr>
                 </table>
             </div>
-            <!-- phone, email -->
+
+            <!-- Contact us via phone and email -->
             <div id="contact">
                 <h2>Our Contact</h2>
                 <div id="contact-outer">
@@ -113,6 +113,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- Address -->
             <div id="address">
                 <h2>Address</h2>
@@ -123,8 +124,10 @@
             </div>
         </section>
 
+        <!-- Fontawesome js script link -->
         <script src="https://kit.fontawesome.com/829eda7611.js" crossorigin="anonymous"></script>
-        <!-- Footer Social Media Links -->
+
+        <!-- Footer for social media links -->
         <footer>
             <div>
                 <ul class="social">
