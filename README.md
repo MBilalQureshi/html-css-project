@@ -1,4 +1,4 @@
-# Hot Bowl Cuisine
+# [Hot Bowl Cuisine](https://mbilalqureshi.github.io/html-css-project/)
 This website is about cooking desi foods. It is based on a YouTube cooking channel [Hot Bowl Cuisine](https://www.youtube.com/@hotbowlcuisine/featured). One can learn cooking by watching the videos on YouTube that are linked with site.
 
 Food lovers are more than welcome to come and socialize even take part in upcoming cooking sessions or have a cup of coffee with chef. This website provides the information related kitchen visiting hours for those who wants to meet. The contact and address information are also provided so that users can get in touch before visiting.
@@ -28,7 +28,7 @@ User will know about weekly top 3 trending recipes. Users can submit their revie
     - The search bar is used to search for the recipies you like.
     - User can directly search for the required recipe instead of navigating through the whole website.
 
-![Screenshot of Hot Bowl Cuisine home page landing image and label](/assets/images/readme_img/search-bar.png)
+![Screenshot of Hot Bowl Cuisine search bar](/assets/images/readme_img/search-bar.png)
 
 - Featuring Video
     - On the back side of the featuring video, there is a greyscale image to beautify the look of the video.
@@ -91,52 +91,8 @@ User will know about weekly top 3 trending recipes. Users can submit their revie
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## Testing
-- I confirmed that this website works on following browsers.
-    - Google Chrome
-    - Firefox
-    - Microsoft Edge
-- I confirmed that website is completely responsive on differnt screen sizes.
-- I confirmed that in sign up page all inputs from user is required and can't be left empty.
-- I confirmed that text area in our food page can't be left empty during submission.
-- I confirmed that submit button on our food and sign up page works.
-- I confirmed all the links in footer, about us and top 3 recipes opens in new tab.
 
-[Click here to see the full list of bugs and fixes during development](/TESTING.md)
-
-## Validator Testing
-### HTML validator
-- I used the recommended [W3C validator](https://validator.w3.org/) to validate my HTML files.
-
-| Page | W3C URL | Screenshot | Notes |
-| --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Findex.html) | ![screenshot](/assets/images/readme_img/w3c-validator-home-page.png) | Pass: No Errors |
-| Our Food | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Four-food.html) | ![screenshot](/assets/images/readme_img/w3c-validator-our-food.png) | Pass: No Errors |
-| Sign up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Fsign-up.html) | ![screenshot](/assets/images/readme_img/w3c-validator-sign-up.png) | Pass: No Errors |
-
-### CSS validator
-- I confirmed that no errors were returned when CSS code was passed through [jigsaw validator](https://jigsaw.w3.org/css-validator/).
-
-| File | Jigsaw URL | Screenshot | Notes |
-| --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](/assets/images/readme_img/jigsaw-validator-css.png) | Pass: No Errors |
-
-## Accessibility
-### Fonts and color
-- I confirmed that fonts and colors that are chosen that are easy to read and enhances user experince.
-
-### Lighthouse Audit
-- I have used lighthouse devtool after deployment to fix major issues. Issues found by Lighthouse is mentioned below.
-    - Reduce background image sizes.
-    - Change format of background images to webp format.
-    - In html tags use role = img along with aria labels when background images are declared in css files.
-    - Add meta keywords tag in head element of each page.
-
-Following are the results of Lighthouse audit of every page
-
-![Screenshot of lighthouse chrome devtool](/assets/images/readme_img/lighthouse.png)
-
-### Unfixed bugs
-- No unfixed bugs.
+To see complete testing section, kindly click [here](/TESTING.md).
 
 ## Deployment
 This website was deployed to GitHub pages. The steps of deployment are mentioned below.
@@ -146,8 +102,6 @@ This website was deployed to GitHub pages. The steps of deployment are mentioned
 4. Under the branch, there is a drop down. Select "Main" from it and click save.
 5. The same page will automatically refersh. 
 6. On top of "GitHub Pages", it is now mentioned that "Your site is live at https://mbilalqureshi.github.io/html-css-project/".
-
-The live link can be found here - [Hot Bowl Cuisine](https://mbilalqureshi.github.io/html-css-project/)
 
 ## Credits
 ### Content
@@ -170,3 +124,6 @@ The live link can be found here - [Hot Bowl Cuisine](https://mbilalqureshi.githu
 - Learned the concept of [box shadow](https://getcssscan.com/css-box-shadow-examples) from Mentor Akshat Garg.
 - Learned the concept of [Flex](https://flexboxfroggy.com/) from Mentor Akshat Garg.
 - Learned the concept of column count from code Institute's tutor.
+### Acknowledgements
+- My Mentor for helpful feedbacks during project development.
+- Code Institute team for pointing in right direction.
