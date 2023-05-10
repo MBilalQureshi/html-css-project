@@ -9,9 +9,9 @@
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](/assets/images/readme_img/chrome-preview.png) | Works as expected |
-| Firefox | ![screenshot](/assets/images/readme_img/firefox-preview.png) | Works as expected |
-| Edge | ![screenshot](/assets/images/readme_img/edge-preview.png) | Works as expected |
+| Chrome | ![screenshot](/documentation/readme_img/chrome-preview.png) | Works as expected |
+| Firefox | ![screenshot](/documentation/readme_img/firefox-preview.png) | Works as expected |
+| Edge | ![screenshot](/documentation/readme_img/edge-preview.png) | Works as expected |
 
 ## Responsiveness
 
@@ -19,14 +19,14 @@ I confirmed that website is completely responsive on different screen sizes.
 
 | Device | Home | Contact us | Top 3 recipes | Sign up | Notes |
 | --- | --- | --- | --- | --- | --- |
-| XS Mobile (DevTools - Galaxy S9+ - 320 x 658) | ![screenshot](/assets/images/readme_img/xs-mobile-home.png) | ![screenshot](/assets/images/readme_img/xs-mobile-contactus.png) | ![screenshot](/assets/images/readme_img/xs-mobile-top3.png) | ![screenshot](/assets/images/readme_img/xs-mobile-signup.png) | Works as expected |
-| Small Mobile (DevTools - iphoneX - 375 x 812) | ![screenshot](/assets/images/readme_img/ss-mobile-home.png) | ![screenshot](/assets/images/readme_img/ss-contact-us.png) | ![screenshot](/assets/images/readme_img/ss-top3-recipies.png) | ![screenshot](/assets/images/readme_img/ss-signup.png) | Works as expected |
-| Medium Mobile (DevTools - Pixel 3 - 393 x 786) | ![screenshot](/assets/images/readme_img/m-mobile-home.png) | ![screenshot](/assets/images/readme_img/m-contact-us.png) | ![screenshot](/assets/images/readme_img/m-top3-recipies.png) | ![screenshot](/assets/images/readme_img/m-signup.png) | Works as expected |
-| Large Mobile (DevTools - S20 Ultra - 412 x 915) | ![screenshot](/assets/images/readme_img/l-mobile-home.png) | ![screenshot](/assets/images/readme_img/l-mobile-contactus.png) | ![screenshot](/assets/images/readme_img/l-mobile-top3.png) | ![screenshot](/assets/images/readme_img/l-mobile-signup.png) | Works as expected |
-| Small Tablet (DevTools iPad Mini - 786 x 1024) | ![screenshot](/assets/images/readme_img/s-tablet-home.png) | ![screenshot](/assets/images/readme_img/st-contact-us.png) | ![screenshot](/assets/images/readme_img/st-top3-recipies.png) | ![screenshot](/assets/images/readme_img/st-signup.png) | Works as expected |
-| Tablet (DevTools iPad Pro - 1024 x 1366) | ![screenshot](/assets/images/readme_img/lt-home.png) | ![screenshot](/assets/images/readme_img/lt-contactus.png) | ![screenshot](/assets/images/readme_img/lt-top3.png) | ![screenshot](/assets/images/readme_img/lt-signup.png) | Works as expected |
-| Laptop (HP Omen - 1536 x 864) | ![screenshot](/assets/images/readme_img/laptop-home.png) | ![screenshot](/assets/images/readme_img/laptop-contact-us.png) | ![screenshot](/assets/images/readme_img/laptop-top3.png) | ![screenshot](/assets/images/readme_img/laptop-signup.png) | Works as expected |
-| Desktop (Dell - 1920 x 1080)| ![screenshot](/assets/images/readme_img/desktop-home.png) | ![screenshot](/assets/images/readme_img/desktop-contactus.png) | ![screenshot](/assets/images/readme_img/desktop-top3.png) | ![screenshot](/assets/images/readme_img/desktop-signup.png) | Works as expected |
+| XS Mobile (DevTools - Galaxy S9+ - 320 x 658) | ![screenshot](/documentation/readme_img/xs-mobile-home.png) | ![screenshot](/documentation/readme_img/xs-mobile-contactus.png) | ![screenshot](/documentation/readme_img/xs-mobile-top3.png) | ![screenshot](/documentation/readme_img/xs-mobile-signup.png) | Works as expected |
+| Small Mobile (DevTools - iphoneX - 375 x 812) | ![screenshot](/documentation/readme_img/ss-mobile-home.png) | ![screenshot](/documentation/readme_img/ss-contact-us.png) | ![screenshot](/documentation/readme_img/ss-top3-recipies.png) | ![screenshot](/documentation/readme_img/ss-signup.png) | Works as expected |
+| Medium Mobile (DevTools - Pixel 3 - 393 x 786) | ![screenshot](/documentation/readme_img/m-mobile-home.png) | ![screenshot](/documentation/readme_img/m-contact-us.png) | ![screenshot](/documentation/readme_img/m-top3-recipies.png) | ![screenshot](/documentation/readme_img/m-signup.png) | Works as expected |
+| Large Mobile (DevTools - S20 Ultra - 412 x 915) | ![screenshot](/documentation/readme_img/l-mobile-home.png) | ![screenshot](/documentation/readme_img/l-mobile-contactus.png) | ![screenshot](/documentation/readme_img/l-mobile-top3.png) | ![screenshot](/documentation/readme_img/l-mobile-signup.png) | Works as expected |
+| Small Tablet (DevTools iPad Mini - 786 x 1024) | ![screenshot](/documentation/readme_img/s-tablet-home.png) | ![screenshot](/documentation/readme_img/st-contact-us.png) | ![screenshot](/documentation/readme_img/st-top3-recipies.png) | ![screenshot](/documentation/readme_img/st-signup.png) | Works as expected |
+| Tablet (DevTools iPad Pro - 1024 x 1366) | ![screenshot](/documentation/readme_img/lt-home.png) | ![screenshot](/documentation/readme_img/lt-contactus.png) | ![screenshot](/documentation/readme_img/lt-top3.png) | ![screenshot](/documentation/readme_img/lt-signup.png) | Works as expected |
+| Laptop (HP Omen - 1536 x 864) | ![screenshot](/documentation/readme_img/laptop-home.png) | ![screenshot](/documentation/readme_img/laptop-contact-us.png) | ![screenshot](/documentation/readme_img/laptop-top3.png) | ![screenshot](/documentation/readme_img/laptop-signup.png) | Works as expected |
+| Desktop (Dell - 1920 x 1080)| ![screenshot](/documentation/readme_img/desktop-home.png) | ![screenshot](/documentation/readme_img/desktop-contactus.png) | ![screenshot](/documentation/readme_img/desktop-top3.png) | ![screenshot](/documentation/readme_img/desktop-signup.png) | Works as expected |
 
 ## Validator Testing
 
@@ -36,16 +36,16 @@ I used the recommended [W3C validator](https://validator.w3.org/) to validate my
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Findex.html) | ![screenshot](/assets/images/readme_img/w3c-validator-home-page.png) | Pass: No Errors |
-| Our Food | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Four-food.html) | ![screenshot](/assets/images/readme_img/w3c-validator-our-food.png) | Pass: No Errors |
-| Sign up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Fsign-up.html) | ![screenshot](/assets/images/readme_img/w3c-validator-sign-up.png) | Pass: No Errors |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Findex.html) | ![screenshot](/documentation/readme_img/w3c-validator-home-page.png) | Pass: No Errors |
+| Our Food | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Four-food.html) | ![screenshot](/documentation/readme_img/w3c-validator-our-food.png) | Pass: No Errors |
+| Sign up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Fsign-up.html) | ![screenshot](/documentation/readme_img/w3c-validator-sign-up.png) | Pass: No Errors |
 
 ### CSS validator
 - I confirmed that no errors were returned when CSS code was passed through [jigsaw validator](https://jigsaw.w3.org/css-validator/).
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](/assets/images/readme_img/jigsaw-validator-css.png) | Pass: No Errors |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmbilalqureshi.github.io%2Fhtml-css-project%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](/documentation/readme_img/jigsaw-validator-css.png) | Pass: No Errors |
 
 ## Accessibility
 
@@ -64,12 +64,12 @@ Following are the results of Lighthouse audit of every page for mobile and deskt
 
 | Page | Size | Screenshot |
 | --- | --- | --- |
-| Home | Mobile | ![screenshot](/assets/images/readme_img/mobile-audit-home.png) |
-| Home | Desktop | ![screenshot](/assets/images/readme_img/desktop-audit-homepage.png) |
-| Our Food | Mobile | ![screenshot](/assets/images/readme_img/mobile-audit-our-food.png) |
-| Our Food | Desktop | ![screenshot](/assets/images/readme_img/desktop-audit-ourfood.png) |
-| Sign up | Mobile | ![screenshot](/assets/images/readme_img/mobile-audit-signup.png) |
-| Sign up | Desktop | ![screenshot](/assets/images/readme_img/desktop-audit-signup.png) |
+| Home | Mobile | ![screenshot](/documentation/readme_img/mobile-audit-home.png) |
+| Home | Desktop | ![screenshot](/documentation/readme_img/desktop-audit-homepage.png) |
+| Our Food | Mobile | ![screenshot](/documentation/readme_img/mobile-audit-our-food.png) |
+| Our Food | Desktop | ![screenshot](/documentation/readme_img/desktop-audit-ourfood.png) |
+| Sign up | Mobile | ![screenshot](/documentation/readme_img/mobile-audit-signup.png) |
+| Sign up | Desktop | ![screenshot](/documentation/readme_img/desktop-audit-signup.png) |
 
 ## List of bugs and issues
 1. Hot bowl Cuisine logo link was not working and there was still hyperlink line under it after styling.

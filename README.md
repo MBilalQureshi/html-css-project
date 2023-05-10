@@ -5,7 +5,7 @@ Food lovers are more than welcome to come and socialize even take part in upcomi
 
 User will know about weekly top 3 trending recipes. Users can submit their reviews based on their experience and obviously sign up to get information about what’s going to happen in upcoming weeks at Hot Bowl Cuisine.
 
-![Screenshot of Hot Bowl Cuisine website mockup](/assets/images/readme_img/html-css-project1-mockup.png)
+![Screenshot of Hot Bowl Cuisine website mockup](/documentation/readme_img/html-css-project1-mockup.png)
 
 ## Features
 - Navigation Bar
@@ -15,33 +15,33 @@ User will know about weekly top 3 trending recipes. Users can submit their revie
     - Website user can easily navigate through website using these links.
     - Keeping kitchen and cooking theme in mind navigation bar background color, font color and font is carefully selected for best user experience.
 
-![Screenshot of Hot Bowl Cuisine website navigation bar](/assets/images/readme_img/nav-bar.png)
+![Screenshot of Hot Bowl Cuisine website navigation bar](/documentation/readme_img/nav-bar.png)
 
 - The landing page image
     - There is a background image which has bread, vegetables and fruits in it which defines own its on what the page is about.
     - On the right side of background image there is a label on which a very popular quotation of Wolfgang Puck is written for user attraction.
     - The label background color, font and font color itself is very beautiful to grab the attention of this website users.
 
-![Screenshot of Hot Bowl Cuisine home page landing image and label](/assets/images/readme_img/landing-image.png)
+![Screenshot of Hot Bowl Cuisine home page landing image and label](/documentation/readme_img/landing-image.png)
 
 - Search Bar
     - The search bar is used to search for the recipies you like.
     - User can directly search for the required recipe instead of navigating through the whole website.
 
-![Screenshot of Hot Bowl Cuisine search bar](/assets/images/readme_img/search-bar.png)
+![Screenshot of Hot Bowl Cuisine search bar](/documentation/readme_img/search-bar.png)
 
 - Featuring Video
     - On the back side of the featuring video, there is a greyscale image to beautify the look of the video.
     - The featuring video is basically to tell the website users how the food is prepared along with the list of required recipes.
 
-![Screenshot of Hot Bowl Cuisine featuring video](/assets/images/readme_img/featuring-video.png)
+![Screenshot of Hot Bowl Cuisine featuring video](/documentation/readme_img/featuring-video.png)
 
 - About us
     - About us section tells the users how they can make international dishes at home.
     - What different varieties of dishes users can try.
     - There is also an option to open the main YouTube channel in new tab by clicking the link available in about us section.
 
-![Screenshot of about us at home page](/assets/images/readme_img/about-us.png)
+![Screenshot of about us at home page](/documentation/readme_img/about-us.png)
 
 - Visit Our kitchen
     - The time table shows the user when they can come to visit, share their thoughts, give suggestions or have a cup of coffee with chef.
@@ -51,13 +51,13 @@ User will know about weekly top 3 trending recipes. Users can submit their revie
     - User can contact the chef and get appointment before visiting.
     - User can either contact via phone or email.
 
-![Screenshot of details related visiting hours, address and our contact](/assets/images/readme_img/details.png)
+![Screenshot of details related visiting hours, address and our contact](/documentation/readme_img/details.png)
 
 - Footer
     - Using the social media links in footer user can easily stay connected with Hot Bowl Cuisine and know what's new, are there any new recipes to try or which are top three weekly recipes.
     - All the social media links will open in new tab for users feasibility.
 
-![Screenshot of social media links in footer](/assets/images/readme_img/footer.png)
+![Screenshot of social media links in footer](/documentation/readme_img/footer.png)
 
 - Our top 3 recipies
     - On our food page, user can see what weekly top 3 recipes are trending.
@@ -65,26 +65,26 @@ User will know about weekly top 3 trending recipes. Users can submit their revie
     - In top 3 recipes section user is also able to see the Ingredients list to prepare the food.
     - The sequence of recipies are also mentioned.
 
-![Screenshot of our food page's top three recipes](/assets/images/readme_img/top3-recipies.png)
+![Screenshot of our food page's top three recipes](/documentation/readme_img/top3-recipies.png)
 
 - User Reviews
     - Users can see the what others think about the services provided by Hot Bowl Cuisine.
     - User can also decide if they want to become a proper visitor based on the reviews provided by other users.
 
-![Screenshot of our User reviews on our food page](/assets/images/readme_img/user-reviews.png)
+![Screenshot of our User reviews on our food page](/documentation/readme_img/user-reviews.png)
 
 - How are we doing?
     - Users can give their feedback which will be added to user reviews section.
     - Feedback can be positive or negative but based on that it will help future users to better understand the website.
 
-![Screenshot of how we are doing form](/assets/images/readme_img/how-are-we-doing.png)
+![Screenshot of how we are doing form](/documentation/readme_img/how-are-we-doing.png)
 
 - The Sign-Up page
     - It's important write first name, last name and email. All this information is required to submit the form to get benefits of the Hot Bowl Cuisine community.
     - User can sign up to get weekly newsletter related worldwide trending food recipes.
     - User will also be able to know what happening in the Hot Bowl Cuisine kitchen in upcoming weeks.
 
-![Screenshot of complete sign up page](/assets/images/readme_img/sign-up.png)
+![Screenshot of complete sign up page](/documentation/readme_img/sign-up.png)
 
 ## Technologies Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
