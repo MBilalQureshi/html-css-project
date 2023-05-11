@@ -1,9 +1,11 @@
-# [Hot Bowl Cuisine](https://mbilalqureshi.github.io/html-css-project/)
+# Hot Bowl Cuisine
 This website is about cooking desi foods. It is based on a YouTube cooking channel [Hot Bowl Cuisine](https://www.youtube.com/@hotbowlcuisine/featured). One can learn cooking by watching the videos on YouTube that are linked with site.
 
 Food lovers are more than welcome to come and socialize even take part in upcoming cooking sessions or have a cup of coffee with chef. This website provides the information related kitchen visiting hours for those who wants to meet. The contact and address information are also provided so that users can get in touch before visiting.
 
 User will know about weekly top 3 trending recipes. Users can submit their reviews based on their experience and obviously sign up to get information about what’s going to happen in upcoming weeks at Hot Bowl Cuisine.
+
+Click [here](https://mbilalqureshi.github.io/html-css-project/) to see the live website.
 
 ![Screenshot of Hot Bowl Cuisine website mockup](/documentation/readme_img/html-css-project1-mockup.png)
 
@@ -95,6 +97,7 @@ User will know about weekly top 3 trending recipes. Users can submit their revie
 To see complete testing section, kindly click [here](/TESTING.md).
 
 ## Deployment
+### GitHub Pages
 This website was deployed to GitHub pages. The steps of deployment are mentioned below.
 1. Log in to GitHub and locate [Hot Bowl Cuisine](https://github.com/MBilalQureshi/html-css-project) repository.
 2. At the top of the page, click "Settings" button available in menu.
@@ -102,6 +105,21 @@ This website was deployed to GitHub pages. The steps of deployment are mentioned
 4. Under the branch, there is a drop down. Select "Main" from it and click save.
 5. The same page will automatically refersh. 
 6. On top of "GitHub Pages", it is now mentioned that "Your site is live at https://mbilalqureshi.github.io/html-css-project/".
+
+### Forking the GitHub Repository
+With Forking one can make a copy of a repository and to view or make changes in it without affecting the orignal repository. Following are the steps to do this.
+1. Log in to GitHub and locate [Hot Bowl Cuisine](https://github.com/MBilalQureshi/html-css-project) repository.
+2. At the top right side of the page just below the navigation bar, locate the fork button.
+3. You will now have a copy of the repository.
+
+### Making a Local Clone
+1. Log in to GitHub and locate [Hot Bowl Cuisine](https://github.com/MBilalQureshi/html-css-project) repository.
+2. Just below the repository name, click "Code".
+3. There is an option to copy HTTPS link. Press copy icon.
+5. Open Git Bash on local machine.
+4. Change the current working directory to the location where we want the cloned directory to be made.
+5. Type git clone on bash and paste the HTTPS URL we copied earlier.
+6. Press Enter. local clone will be created.
 
 ## Credits
 ### Content

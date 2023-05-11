@@ -126,7 +126,7 @@ Following are the results of Lighthouse audit of every page for mobile and deskt
     #### Fix:
     - Add required to the text area tags.
 
- **Fixes after discussion with mentor**
+**Fixes after sessions with mentor**
 
 13. Change second background image on home page to greyscale but not the content on top of it.
     #### Fix: 
